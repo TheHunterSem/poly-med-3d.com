@@ -29,7 +29,7 @@
 
 <div class="centered-container">
 
-    <section class="content">
+    <div class="content">
         <h2 class="header-content-general">POLY-MED 3D SOLUTIONS & SERVICES</h2>
         <p class="text-content-general">We produce medical-grade, high quality materials for your 3D printing
             operations. If you need a particular material to enable your 3D printing application, we can customize our
@@ -39,7 +39,7 @@
             biotechnology space, Poly-Med 3D is your trusted partner in 3D printing bioresorbable materials for
             first-in-class medical devices. Contact US at <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
         </p>
-    </section>
+    </div>
 
     <section class="what_we_provide">
         <h2 class="header-content-general">What we Provide</h2>
@@ -88,8 +88,21 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/printing-services.png" alt="">
         </div>
         <div class="right-side">
-            <h3>3D PRINTING SERVICES</h3>
-            <p></p>
+            <div class="content">
+                <h3 class="header-content-general">3D PRINTING SERVICES</h3>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-2-black.png" alt="">
+                <p class="text-content-general">Poly-Med provides a variety of materials for 3D-printing applications,
+                    along with in-house 3D printing services. Our materials and services are supported by an ISO
+                    13485-certified quality system of where we have fully traceable materials and processes for your 3D
+                    printing needs.</p>
+                <p class="text-content-general">
+                    Poly-Med filaments are synthesized, extruded, inspected, packaged, and shipped using fully traceable
+                    processes.</p>
+                <p class="text-content-general">Poly-Med offers in-house 3D printing using fused filament technologies.
+                    <a href="mailto:sales@poly-med3d.com">Contact us</a> at sales@poly-med3d.com to learn more!
+                </p>
+            </div>
+            <a href="#" class="see-services-link">SEE SERVICES</a>
         </div>
     </section>
 

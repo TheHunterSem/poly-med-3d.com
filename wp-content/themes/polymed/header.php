@@ -41,11 +41,11 @@
     <div class="header-main">
 
         <a class="main-logo" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="">
         </a>
 
         <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-            <?php wp_nav_menu(array('main_navigation' => 'primary', 'menu_class' => 'nav-menu')); ?>
+            <?php wp_nav_menu('menu=main_navigation'); ?>
         </nav>
 
         <a class="cart-link"
