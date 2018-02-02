@@ -341,3 +341,30 @@ header .header-main {
     padding: 20px;
     text-align: center;
 }
+
+.printing-services {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.printing-services .left-side,
+.printing-services .right-side {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.printing-services .left-side img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.printing-services .right-side {
+    background-color: #D9CBF3;
+}
