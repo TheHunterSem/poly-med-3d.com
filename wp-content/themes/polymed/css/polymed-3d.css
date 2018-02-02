@@ -516,3 +516,12 @@ footer .social-block .socials-icons ul li a {
     box-sizing: border-box;
     display: block;
 }
+
+.filaments-wrapper-items{
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.filaments-wrapper-items .first-item-block {
+
+}

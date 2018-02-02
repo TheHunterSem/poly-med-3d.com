@@ -25,6 +25,24 @@
 </div>
 
 
+<div class="centered-container">
+
+    <section class="making-filaments">
+        <h2 class="header-content-general">MAKING FILAMENTS FOR 3D PRINTING</h2>
+        <div class="filaments-wrapper-items">
+            <div class="first-item-block">
+                <div class="img-block">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/filaments-1.png" alt="">
+                </div>
+                <div class="content-block">
+                    <span class="circle">1</span>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
 
 
 <?php get_footer(); ?>
