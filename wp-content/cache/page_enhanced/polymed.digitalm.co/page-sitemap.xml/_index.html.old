@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//polymed.digitalm.co/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/</loc>
+		<lastmod>2014-05-15T15:15:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/news/</loc>
+		<lastmod>2014-09-09T18:53:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-bioabsorbable-solutions.jpg</image:loc>
+			<image:caption>Bioabsorbable Solutions: Delivered</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/</loc>
+		<lastmod>2014-05-15T15:16:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/design-development/</loc>
+		<lastmod>2015-03-24T15:39:48+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/design_development_process.jpg</image:loc>
+			<image:caption>Poly Med Design and Development Process</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/analytical-services/</loc>
+		<lastmod>2015-03-24T15:29:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/contract-manufacturing/</loc>
+		<lastmod>2015-03-24T15:33:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/quality/</loc>
+		<lastmod>2015-03-25T15:27:35+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-quality-iso_icon.jpg</image:loc>
+			<image:caption>poly med quality iso icon</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-quality-analysis-testing-icon.jpg</image:loc>
+			<image:caption>poly med quality analysis testing icon</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-quality-client-audit-icon.jpg</image:loc>
+			<image:caption>poly med quality client audit icon</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-quality-validation_production_icon.jpg</image:loc>
+			<image:caption>poly med quality validation production icon</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-quality-custom-manufacture-icon.jpg</image:loc>
+			<image:caption>poly med quality custom manufacture icon</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/analytical-services/chemical/</loc>
+		<lastmod>2014-06-02T20:25:51+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-iv.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical IV</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-ftir.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical FTIR</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-uv-vis.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical UV/Vis</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-gpc.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical GPC</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-gc.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical GC</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-hplc.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical HPLC</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-kf.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical KF</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-nmr.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical NMR</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-chemical-visc.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical Visc</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/analytical-services/thermal/</loc>
+		<lastmod>2014-05-30T21:33:47+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-thermal-dsc.png</image:loc>
+			<image:caption>Poly Med Analytics Thermal dsc</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-thermal-tga.png</image:loc>
+			<image:caption>Poly Med Analytics Thermal tga</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-thermal-dma.png</image:loc>
+			<image:caption>Poly Med Analytics Thermal dma</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-thermal-rheo.png</image:loc>
+			<image:caption>Poly Med Analytics Thermal rheo</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-thermal-mfi.png</image:loc>
+			<image:caption>Poly Med Analytics Thermal mfi</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/analytical-services/mechanical/</loc>
+		<lastmod>2014-05-30T21:34:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-general-tensile-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical general tensile test</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-3-pt-bend-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical 3 pt bend test</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-compression-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical compression test</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-suture-tensile-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical suture tensile test</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-suture-pullout.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical suture pullout</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-burst-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical burst test</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-mechanical-t-peel-test.png</image:loc>
+			<image:caption>Poly Med Analytics mechanical t peel test</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/analytical-services/in-vitro-in-vivo/</loc>
+		<lastmod>2014-05-30T21:35:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-in-vitro-in-vivo-exp.png</image:loc>
+			<image:caption>Poly Med Analytics in vitro in vivo exp</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-in-vitro-in-vivo-ivt.png</image:loc>
+			<image:caption>Poly Med Analytics in vitro in vivo ivt</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-analytics-in-vitro-in-vivo-ivv.png</image:loc>
+			<image:caption>Poly Med Analytics Chemical ivv</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/strataprene/</loc>
+		<lastmod>2014-06-03T17:53:39+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-strataprene-3534.png</image:loc>
+			<image:caption>Poly Med Polymers Strataprene 3534</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-strataprene-5525.png</image:loc>
+			<image:caption>Poly Med Polymers Strataprene 5525</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-strataprene-3933.png</image:loc>
+			<image:caption>Poly Med Polymers Strataprene 3933</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/osteoprene/</loc>
+		<lastmod>2014-06-03T17:52:30+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-osteoprene-8812.png</image:loc>
+			<image:caption>Poly Med Polymers Osteoprene 8812</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/max-prene/</loc>
+		<lastmod>2014-08-19T18:24:54+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-955.png</image:loc>
+			<image:caption>Poly Med Polymers Max prene 955</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-910.png</image:loc>
+			<image:caption>Poly Med Polymers Max prene 910</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/lactoprene/</loc>
+		<lastmod>2014-06-03T17:49:12+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-7415.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 7415</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-8411.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 8411</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-8812.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 8812</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-100l.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 100l</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-100m.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 100m</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-100h.png</image:loc>
+			<image:caption>Poly Med Polymers Lactoprene 100h</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/glycoprene/</loc>
+		<lastmod>2014-06-03T17:47:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-6829.png</image:loc>
+			<image:caption>Poly Med Polymers Glycoprene 6829</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-8609.png</image:loc>
+			<image:caption>Poly Med Polymers Glycoprene 8609</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-7027.png</image:loc>
+			<image:caption>Poly Med Polymers Glycoprene 7027</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/dioxaprene/</loc>
+		<lastmod>2014-08-19T18:22:45+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-dioxaprene-100l.png</image:loc>
+			<image:caption>Poly Med Polymers Dioxaprene 100l</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-dioxaprene-100m.png</image:loc>
+			<image:caption>Poly Med Polymers Dioxaprene 100M</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-dioxaprene-100h.png</image:loc>
+			<image:caption>Poly Med Polymers Dioxaprene 100H</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/caproprene/</loc>
+		<lastmod>2014-06-03T17:43:43+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505l.png</image:loc>
+			<image:caption>Poly Med Polymers Caproprene 9505l</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505m.png</image:loc>
+			<image:caption>Poly Med Polymers Caproprene 9505m</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505h.png</image:loc>
+			<image:caption>Poly Med Polymers Caproprene 9505h</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/aquaprene/</loc>
+		<lastmod>2014-06-03T17:42:02+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-aquaprene-6728.png</image:loc>
+			<image:caption>Poly Med Polymers Aquaprene 6728</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-aquaprene-8020.png</image:loc>
+			<image:caption>Poly Med Polymers Aquaprene 8020</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-aquaprene-6040.png</image:loc>
+			<image:caption>Poly Med Polymers Aquaprene 6040</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-aquaprene-6820.png</image:loc>
+			<image:caption>Poly Med Polymers Aquaprene 6820</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-aquaprene-8808.png</image:loc>
+			<image:caption>Poly Med Polymers Aquaprene 8808</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/careers/</loc>
+		<lastmod>2015-04-01T18:45:43+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-bioabsorbable-solutions.jpg</image:loc>
+			<image:caption>Bioabsorbable Solutions: Delivered</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/</loc>
+		<lastmod>2014-05-27T16:50:49+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/knowledge-streamlined/</loc>
+		<lastmod>2015-05-04T18:01:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/case-study1-pict.jpg</image:loc>
+			<image:caption>Knowledge: Streamlined</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/precision-drug-delivery/</loc>
+		<lastmod>2015-05-04T18:02:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/case-study3-pict.jpg</image:loc>
+			<image:caption>Precision Drug Deliver</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/moduprene/</loc>
+		<lastmod>2014-07-22T22:56:55+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-100a.png</image:loc>
+			<image:caption>Poly Med Polymers Moduprene 100A</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-8812.png</image:loc>
+			<image:caption>Poly Med Polymers Moduprene 8812</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-9208.png</image:loc>
+			<image:caption>Poly Med Polymers Moduprene 9208</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/viscoprene/</loc>
+		<lastmod>2014-07-22T22:54:06+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6519M.png</image:loc>
+			<image:caption>Poly Med Polymers Viscoprene 6519M</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6519L.png</image:loc>
+			<image:caption>Poly Med Polymers Viscoprene 6519L</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-7017.png</image:loc>
+			<image:caption>Poly Med Polymers Viscoprene 7017</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-5537.png</image:loc>
+			<image:caption>Poly Med Polymers Viscoprene 5537</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6521.png</image:loc>
+			<image:caption>Poly Med Polymers Viscoprene 6521</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/</loc>
+		<lastmod>2015-06-09T17:54:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-bioabsorbable-solutions.jpg</image:loc>
+			<image:caption>Bioabsorbable Solutions: Delivered</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-solutions-implantable-grade-polymers-purple.png</image:loc>
+			<image:caption>Poly Med Solutions Implantable Grade Polymers</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-services-design-development-purple.png</image:loc>
+			<image:caption>Poly Med Services Design and Development</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-services-contract-manufacturing-purple.png</image:loc>
+			<image:caption>Poly Med Services Contract Manufacturing</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-services-analytical-services-purple.png</image:loc>
+			<image:caption>Poly Med Services Analytical Services</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-services-quality-purple.png</image:loc>
+			<image:caption>Poly Med Services Quality</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/uploads/2014/05/poly-med-case-study.jpg</image:loc>
+			<image:caption>poly med case study image</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/medical-textiles/</loc>
+		<lastmod>2015-05-29T12:09:50+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/solutions-medical-textiles-bg.jpg</image:loc>
+			<image:caption>poly med solutions medical textiles</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/regenerative-scaffolding/</loc>
+		<lastmod>2015-05-29T12:10:13+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/solutions-regenerative-scaffolding-bg.jpg</image:loc>
+			<image:caption>poly med solutions regenerative scaffolding</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/polymers-for-drug-delivery/</loc>
+		<lastmod>2015-06-10T18:40:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/example-drug-release.png</image:loc>
+			<image:caption>example drug release</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/medical-devices/</loc>
+		<lastmod>2015-05-29T12:09:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/solutions-medical-devices-bg.jpg</image:loc>
+			<image:caption>poly med solutions medical devices</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/implantable-grade-fibers/</loc>
+		<lastmod>2015-06-10T19:35:14+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-2400-polymer-solutions.jpg</image:loc>
+			<image:caption>poly med 2400 polymer solutions</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/mono.png</image:loc>
+			<image:caption>Monofilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/micro.png</image:loc>
+			<image:caption>Microfilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/multi.png</image:loc>
+			<image:caption>Multifilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/braid.png</image:loc>
+			<image:caption>Braid</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/services/implantable-grade-polymers-catalogue/</loc>
+		<lastmod>2015-06-10T17:25:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-30-years-pioneering.jpg</image:loc>
+			<image:caption>poly med 30 years of pioneering services</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymer-graph.jpg</image:loc>
+			<image:caption>Polymers Graph</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/about/</loc>
+		<lastmod>2015-05-05T01:21:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/uploads/2014/05/building.jpg</image:loc>
+			<image:caption>Bioabsorbable Solutions: Delivered</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-bio-s-w-shalaby.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-bio-david-shalaby.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-about-594x200-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-about-594x200-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-about-396x200-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-about-396x200-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-about-396x200-3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/engineering-a-difference/</loc>
+		<lastmod>2015-05-04T18:03:24+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/case-study2-pict.jpg</image:loc>
+			<image:caption>Engineering a Difference</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/bone-and-tissue/</loc>
+		<lastmod>2015-05-04T18:04:13+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/case-study4-pict.jpg</image:loc>
+			<image:caption>Bone and Tissue: An Adaptable Solution</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/case-studies/shaping-a-solution/</loc>
+		<lastmod>2015-05-04T18:04:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-one-source.jpg</image:loc>
+			<image:caption>poly med one source case studies</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/case-study5-pict.jpg</image:loc>
+			<image:caption>Shaping a Solution</image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/polymers-for-drug-delivery/viscoprene/</loc>
+		<lastmod>2015-06-08T14:38:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6519M.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6519L.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-7017.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-5537.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-viscoprene-6521.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/polymers-for-drug-delivery/moduprene/</loc>
+		<lastmod>2015-06-08T14:35:28+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-100a.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-8812.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-moduprene-9208.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/implantable-grade-fibers/monofilaments/</loc>
+		<lastmod>2015-06-09T11:29:42+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/mono.png</image:loc>
+			<image:caption>Monofilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-6829.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-7415.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-dioxaprene-100h.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/implantable-grade-fibers/multifilaments/</loc>
+		<lastmod>2015-06-09T11:30:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/multi.png</image:loc>
+			<image:caption>Multifilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-8609.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-955.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-910.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-8812.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-100m.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/implantable-grade-fibers/microfilaments/</loc>
+		<lastmod>2015-06-09T11:28:30+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/micro.png</image:loc>
+			<image:caption>Microfilaments</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-glycoprene-8609.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-955.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-910.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-100m.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-osteoprene-8812.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-dioxaprene-100h.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://polymed.digitalm.co/solutions/implantable-grade-fibers/braids/</loc>
+		<lastmod>2015-06-09T11:26:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/braid.png</image:loc>
+			<image:caption>Braid</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-955.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-max-prene-910.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-8411.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-lactoprene-8411.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-osteoprene-8812.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505l.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505m.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>http://polymed.digitalm.co/wp-content/themes/polymed/images/poly-med-polymers-caproprene-9505h.png</image:loc>
+		</image:image>
+	</url>
+</urlset>
+<!-- XML Sitemap generated by Yoast WordPress SEO -->
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: polymed.digitalm.co @ 2016-11-05 15:23:10 by W3 Total Cache -->

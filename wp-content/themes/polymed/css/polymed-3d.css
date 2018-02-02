@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'BrandonGrotesque-Regular';
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot');
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff2') format('woff2'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff') format('woff'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.ttf') format('truetype'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Medium';
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.eot');
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.woff2') format('woff2'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.woff') format('woff'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.ttf') format('truetype'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Bold';
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.eot');
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff2') format('woff2'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff') format('woff'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.ttf') format('truetype'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg'),
+    url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'polymed-3d-icons';
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?81050233');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?81050233#iefix') format('embedded-opentype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?81050233') format('woff2'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?81050233') format('woff'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?81050233') format('truetype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?81050233#polymed-3d-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "polymed-3d-icons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play:before { content: '\e801'; } /* '' */
+.icon-shopping-cart:before { content: '\e806'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-linkedin:before { content: '\f318'; } /* '' */
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'BrandonGrotesque-Regular';
+    font-size: 18px;
+    color: #363838;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.youtube {
+    margin: 0 auto;
+    position: relative;
+    background-position: center center;
+    background-size: auto;
+}
+
+.youtube .play {
+    background-color: #fff;
+    border-radius: 100%;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+}
+
+.youtube .play::before {
+    position: absolute;
+    content: '\e801';
+    color: #474747;
+    top: 50%;
+    left: calc(50% + 3px);
+    transform: translate(-50%, -50%);
+    font-family: 'polymed-3d-icons';
+    font-size: 27px;
+}
+
+.centered-container {
+    display: block;
+    width: 100%;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #EDEFF3;
+    padding-bottom: 40px;
+}
+
+header {
+    display: block;
+    max-width: 1024px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .header-main {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.main-logo {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#menu-main_navigation,
+#primary-navigation {
+    display: inline-block;
+    padding: 0;
+}
+
+#menu-main_navigation > li.menu-item {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+#menu-main_navigation > li.menu-item:first-child {
+    margin-left: 0;
+}
+
+#menu-main_navigation > li.menu-item:last-child {
+    margin-right: 0;
+}
+
+#menu-main_navigation > li.menu-item a,
+.cart-link {
+    color: #292929;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cart-link {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.cart-link .icon-shopping-cart {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.main-top-banner-wrapper {
+    position: relative;
+    max-width: 1024px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-top-banner-wrapper .img-block img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    max-height: 600px;
+}
+
+.main-top-banner-wrapper .content-block {
+    position: absolute;
+    top: 40px;
+    max-width: 600px;
+    left: 40px;
+}
+
+.main-top-banner-wrapper .content-block .header {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-top-banner-wrapper .content-block .text {
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    font-size: 18px;
+    font-family: 'BrandonGrotesque-Medium';
+    line-height: 24px;
+}
+
+.header-content-general {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+    width: 100%;
+    max-width: 652px;
+    color: #222222;
+    font-family: 'BrandonGrotesque-Regular';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-content-general {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 944px;
+    color: #363838;
+    font-size: 18px;
+    font-family: 'BrandonGrotesque-Medium';
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-content-general a {
+    color: #363838;
+    font-family: 'BrandonGrotesque-Medium';
+}
+
+.what_we_provide-wrapper {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what_we_provide-wrapper .item {
+    background-color: #474747;
+    display: inline-block;
+    width: 33.3333%;
+    max-width: 301px;
+    padding-top: 39.5px;
+    min-height: 320px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0.8%;
+}
+
+.what_we_provide-wrapper .item:first-child {
+    margin-left: 0;
+}
+
+.what_we_provide-wrapper .item:last-child {
+    margin-right: 0;
+}
+
+.what_we_provide-wrapper .item .image {
+    display: block;
+    margin: 0 auto;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    margin-bottom: 19.5px;
+}
+
+.what_we_provide-wrapper .item .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.what_we_provide-wrapper .item .header {
+    max-width: 208px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.what_we_provide-wrapper .item .description {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    max-width: 244px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.vertically-integrated .video-block {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}

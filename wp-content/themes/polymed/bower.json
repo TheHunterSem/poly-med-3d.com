@@ -1,0 +1,9 @@
+{
+  "name": "customize.io",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.10.1",
+    "bootstrap-sass-twbs": "3.1.1",
+    "font-awesome": "4.1.0"
+  }
+}

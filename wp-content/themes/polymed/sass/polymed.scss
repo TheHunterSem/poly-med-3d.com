@@ -1,0 +1,1003 @@
+@function twbs-font-path($value) {
+  @return "../bower_components/bootstrap-sass-twbs/vendor/assets/fonts/" + $value;
+}
+$fa-font-path:   "../bower_components/font-awesome/fonts";
+@import "../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../fonts/vegur/stylesheet.css";
+@import "../fonts/aleo/stylesheet.css";
+@import "../fonts/bebasneue/stylesheet.css";
+
+$brand-primary: #84649F;
+
+$grid-float-breakpoint: 992px;
+
+$navbar-height: 57px;
+//$navbar-padding-vertical: 10px;
+$navbar-border-radius: 0;
+
+$navbar-inverse-color: #fff;
+$page-navbar-inverse-color: #d2d2d2;
+
+
+$border-radius-base:        10px;
+
+$btn-font-weight: bold;
+
+$btn-default-color:  	  	#535353;
+$btn-default-bg:      		#EEEEEE;
+$btn-default-border:  		#ccc;
+$default-hover:				#cccccc;
+
+$blockquote-font-size: 35px;
+
+// Core variables and mixins
+@import "../bower_components/bootstrap-sass-twbs/vendor/assets/stylesheets/bootstrap";
+
+body {
+  padding-top: $navbar-height + 3px;
+}
+
+h1, h2, h3 {
+  font-family: aleobold;
+  font-weight: normal;
+}
+
+.anchored {
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+button {
+	a {
+		color: #ffffff;
+		&:hover {
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+}
+
+.polymed-table {
+  width: 100%;
+  td, th {
+    padding: 5px 10px;
+    vertical-align: middle;
+  }
+  td {
+    text-align: center;
+    &.text-left {
+      text-align: left;
+    }
+    img {
+      max-width: 120px;
+      margin: auto;
+    }
+  }
+  th {
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+.polymed-table-image-cell {
+  background: #fff;
+  padding: 50px;
+}
+.polymed-table-heading {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.polymed-table-nowrap {
+  td {
+    white-space: nowrap;
+  }
+}
+
+.row {
+	h1 {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+.purple {
+	color: $brand-primary;
+}
+.white {
+	color: #ffffff;
+}
+.indent {
+	padding: 5px 72px;
+	h3 {
+		color: #666666;
+	}
+}
+
+.container {
+	h1 {
+		margin-bottom: 70px;
+	}
+}
+
+.contact {
+  font-size: 16px;
+}
+
+@media (min-width: $screen-md-min) {
+  .contact {
+    background: rgba(50,50,50,.9);
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 250px;
+    position: absolute;
+    top: $navbar-height;
+    text-transform: none;
+    right: 0;
+    .phone {
+      font-size: 30px;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+}
+
+blockquote {
+  border: none;
+  font-family: VegurBold;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0;
+}
+
+.navbar-fixed-top {
+  border-bottom: 3px solid #444;
+  font-family: VegurBold;
+  font-size: 22px;
+  text-transform: lowercase;
+  .btn {
+    font-family: VegurBold;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 20px;
+    text-transform: lowercase;
+
+    .glyphicon {
+      font-size: 16px;
+    }
+  }
+  .container {
+    position: relative;
+  }
+}
+.btn {
+  font-family: VegurBold;
+}
+.btn {
+  &.btn-primary:hover {
+    background-color: darken($brand-primary, 30%);
+    border-color: darken($brand-primary, 40%);
+  }
+}
+.navbar-text {
+	letter-spacing: .05em;
+}
+
+#do-best {
+	.btn-default {
+		min-height: 52px;
+		border-color: $btn-default-bg;
+		a {
+			color: $btn-default-color;
+		}
+		&:hover {
+			border-color: $default-hover;
+			a {
+				color: #ffffff;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.navbar-inverse {
+  font-family: VegurRegular;
+  font-size: 22px;
+}
+
+.navbar-brand {
+  background: url(../images/logo.png) no-repeat center;
+  overflow: hidden;
+  text-indent: -100%;
+  width: 72px;
+}
+
+
+@media (min-width: $screen-md-min) {
+  .navbar-brand {
+    background: url(../images/logo-desktop.png) no-repeat center;
+    width: 256px;
+  }
+}
+//////////
+// CUSTOM GRID CLASSES
+//
+//
+.col-xs-5th, .col-xs-5th-1, .col-xs-5th-2,
+.col-xs-5th-3, .col-xs-5th-4,.col-xs-5th-5 {
+  margin: 0;
+}
+.col-xs-5th, .col-xs-5th-1 {
+  float: left;
+  padding: 0 ($grid-gutter-width / 2);
+  width: 20%;
+}
+.col-xs-5th-2 {
+  float: left;
+  padding: 0 ($grid-gutter-width / 2);
+  width: 40%;
+}
+.col-xs-5th-3 {
+  float: left;
+  padding: 0 ($grid-gutter-width / 2);
+  width: 60%;
+}
+.col-xs-5th-4 {
+  float: left;
+  padding: 0 ($grid-gutter-width / 2);
+  width: 80%;
+}
+.col-sm-5th, .col-sm-5th-1, .col-sm-5th-2,
+.col-sm-5th-3, .col-sm-5th-4,.col-sm-5th-5 {
+  float: left;
+  padding: 0 ($grid-gutter-width / 2);
+  width: 100%;
+  //margin: 0 20%;
+}
+@media (min-width: $screen-md-min) {
+  .col-sm-5th, .col-sm-5th-1, .col-sm-5th-2,
+  .col-sm-5th-3, .col-sm-5th-4,.col-sm-5th-5 {
+    margin: 0;
+  }
+  .col-sm-5th, .col-sm-5th-1 {
+    float: left;
+    padding: 0 ($grid-gutter-width / 2);
+    width: 20%;
+  }
+  .col-sm-5th-2 {
+    float: left;
+    padding: 0 ($grid-gutter-width / 2);
+    width: 40%;
+  }
+  .col-sm-5th-3 {
+    float: left;
+    padding: 0 ($grid-gutter-width / 2);
+    width: 60%;
+  }
+  .col-sm-5th-4 {
+    float: left;
+    padding: 0 ($grid-gutter-width / 2);
+    width: 80%;
+  }
+}
+// END CUSTOM GRID CLASSES
+
+//////////
+// HOME STYLES
+.certs {
+	position: absolute;
+  width: 285px;
+  right: 0;
+  bottom: 0;
+	.cert {
+    padding: 0;
+		//osition: absolute;
+		z-index: 9;
+		//top: 446px;
+		li {
+			display: inline-block;
+			padding-left: 5px;
+		}
+	}
+}
+
+.polymed-carousel {
+  color: #fff;
+  .item {
+    height: 480px;
+    //position: relative;
+    .container {
+      height: 100%;
+      padding: 100px 0;
+      h1 {
+      	margin-bottom: 20px;
+      }
+      p {
+      	margin-bottom: 25px;
+      }
+    }
+    .polymed-item-image {
+      min-height: 100%;
+      min-width: 1600px;
+      width: 100%;
+      max-width: none;
+      position: absolute;
+      top: 0;
+    }
+    .col-sm-6 {
+    }
+  }
+}
+.carousel-control {
+	height: 610px;
+}
+.carousel-inner .container {
+  position: relative;
+}
+.polymed-nav-panel {
+  background-size: 100%;
+  display: block;
+  //width: 190px;
+  margin-bottom: 20px;
+  //min-height: 600px;
+  &.panel-med {
+    background-image: url('../images/poly-med-solutions-medical-devices.jpg');
+  }
+  &.panel-text {
+    background-image: url('../images/poly-med-solutions-medical-textiles.jpg');
+  }
+  &.panel-regen {
+    background-image: url('../images/poly-med-solutions-regenerative-scaffolding.jpg');
+  }
+  &.panel-poly {
+    background-image: url('../images/poly-med-solutions-implantable-grade-polymers.jpg');
+  }
+  &.panel-drug {
+    background-image: url('../images/poly-med-solutions-polymers-drug-delivery.jpg');
+  }
+  &:hover {
+    &.panel-med {
+    background-image: url('../images/poly-med-solutions-medical-devices-hover.jpg');
+    }
+    &.panel-text {
+      background-image: url('../images/poly-med-solutions-medical-textiles-hover.jpg');
+    }
+    &.panel-regen {
+      background-image: url('../images/poly-med-solutions-regenerative-scaffolding-hover.jpg');
+    }
+    &.panel-poly {
+      background-image: url('../images/poly-med-solutions-implantable-grade-polymers-hover.jpg');
+    }
+    &.panel-drug {
+      background-image: url('../images/poly-med-solutions-polymers-drug-delivery-hover.jpg');
+    }
+  }
+    .polymed-nav-panel-label {
+      background: #000;
+      background: rgba(0,0,0,.5);
+      padding-top: 100%;
+      position: relative;
+      h2 {
+        color: #fff;
+        display: block;
+        font-family: bebas_neueregular;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        padding: 5px;
+      }
+      span {
+        display: block;
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 90px;
+        margin: 0 auto;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+		    &.panel-med-wht {
+  				background-image: url('../images/poly-med-solutions-medical-devices.png');
+  			}
+  			&.panel-text-wht {
+  				background-image: url('../images/poly-med-solutions-medical-textiles.png');
+  			}
+  			&.panel-regen-wht {
+  				background-image: url('../images/poly-med-solutions-regenerative-scaffolding.png');
+  			}
+  			&.panel-poly-wht {
+  				background-image: url('../images/poly-med-solutions-implantable-grade-polymers.png');
+  			}
+  			&.panel-drug-wht {
+  				background-image: url('../images/poly-med-solutions-polymers-drug-delivery.png');
+  			}
+	    }
+  	}
+  &:hover {
+    .polymed-nav-panel-label {
+      background: #5E2372;
+      background: rgba(94,35,114,.5);
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .polymed-nav-panel {
+    width: 190px;
+    min-height: 600px;
+  }
+}
+.polymed-numbers {
+  color: #525252;
+  h4 {
+  	color: $brand-primary;
+  }
+}
+.polymed-number {
+  border: 1px solid #333;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  max-height: 300px;
+  margin: 20px 0px;
+  span {
+    font-family: bebasneue;
+    font-size: 60px;
+    line-height: 100%;
+    margin-top: -30px;
+    padding-top: 50%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.polymed-content {
+  padding: 50px 0;
+}
+
+.polymed-content-grey {
+  background: #f1f1f1;
+}
+
+.polymed-navbar-heading {
+  margin: 0;
+}
+
+.polymed-content-hero {
+  overflow: hidden;
+  position: relative;
+  .polymed-content-hero-image {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  .polymed-content-hero-text {
+    background: #fff;
+    background: rgba(255,255,255,.5);
+    padding: 40px;
+    .btn {
+    	margin-top: 30px;
+    }
+  }
+}
+// END HOME STYLES
+
+// ABOUT STYLES
+.about {
+	h1 {
+		margin-top: 60px;
+	}
+	blockquote {
+		font-size: 1.8em;
+	}
+	.about-text {
+		margin-bottom: 100px;
+	}
+}
+
+.bio {
+	.row {
+		margin-bottom: 40px;
+	}
+	.bio-txt {
+		float: left;
+	}
+}
+
+.timeline {
+	.events {
+		margin-bottom: 40px;
+	}
+	.date {
+		font-size: .8em;
+	}
+}
+
+.gallery {
+	background-color: #333333;
+	img {
+		margin-bottom: 15px;
+	}
+}
+// END ABOUT STYLES
+
+
+// PAGE-NAVBAR
+.page-navbar, .nabar-inverse {
+	font-size: 0px;
+	.nav-pills {
+		background-color: transparent;
+		li {
+			&.mobile {
+				display: list-item;
+			}
+			a {
+				color: $page-navbar-inverse-color;
+				font-size: 16px !important;
+				display: inline-block;
+				padding: 0px;
+				.med-icon {
+					background-image: url('../images/poly-med-solutions-medical-devices-grey.png');
+				}
+				.text-icon {
+					background-image: url('../images/poly-med-solutions-medical-textiles-grey.png');
+				}
+				.reg-icon {
+					background-image: url('../images/poly-med-solutions-regenerative-scaffolding-grey.png');
+				}
+				.igp-icon {
+					background-image: url('../images/poly-med-solutions-implantable-grade-polymers-grey.png');
+				}
+				.drug-icon {
+					background-image: url('../images/poly-med-solutions-polymers-drug-delivery-grey.png');
+				}
+				.dd-icon {
+					background-image: url('../images/poly-med-services-design-development-grey.png');
+				}
+				.anty-icon {
+					background-image: url('../images/poly-med-services-analytical-services-grey.png');
+				}
+				.man-icon {
+					background-image: url('../images/poly-med-services-contract-manufacturing-grey.png');
+				}
+				.qty-icon {
+					background-image: url('../images/poly-med-services-quality-grey.png');
+				}
+			}
+			&.active, &:hover {
+				a {
+					background-color: transparent;
+					color: $brand-primary;
+					.med-icon {
+						background-image: url('../images/poly-med-solutions-medical-devices-purple.png');
+					}
+					.text-icon {
+						background-image: url('../images/poly-med-solutions-medical-textiles-purple.png');
+					}
+					.reg-icon {
+						background-image: url('../images/poly-med-solutions-regenerative-scaffolding-purple.png');
+					}
+					.igp-icon {
+						background-image: url('../images/poly-med-solutions-implantable-grade-polymers-purple.png');
+					}
+					.drug-icon {
+						background-image: url('../images/poly-med-solutions-polymers-drug-delivery-purple.png');
+					}
+					.dd-icon {
+						background-image: url('../images/poly-med-services-design-development-purple.png');
+					}
+					.anty-icon {
+						background-image: url('../images/poly-med-services-analytical-services-purple.png');
+					}
+					.man-icon {
+						background-image: url('../images/poly-med-services-contract-manufacturing-purple.png');
+					}
+					.qty-icon {
+						background-image: url('../images/poly-med-services-quality-purple.png');
+					}
+				}
+				.pointer {
+					position: relative;
+					background-color: transparent !important;
+					width: 40px;
+					height: 22px;
+					background-image: url('../images/pointer.png');
+					background-color: #d2d2d2;
+					z-index: 1;
+					margin: 0 auto;
+					top: 90px;
+				}
+			}
+			p {
+				width: 50%;
+				float: left;
+				padding-top: 13px;
+				min-width: 100px;
+				&.mobile {
+					width: auto;
+					min-width: 320px;
+					border-bottom: solid 1px #d2d2d2;
+					padding-top: 0px;
+					padding: 10px;
+					text-align: left;
+					clear: left;
+					.glyphicon {
+						padding-right: 10px;
+					}
+				}
+				&.last {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+	.nav-icon {
+		width: 90px;
+		height: 90px;
+		background-size: 75px 75px;
+		background-repeat:no-repeat;
+		background-position:center;
+		float: left;
+	}
+}
+// END PAGE NAVBAR
+
+// START CASE STUDY NAVBAR
+.polymed-casestudies-navbar, .nabar-inverse {
+  font-size: 0px;
+  .nav-pills {
+    background-color: transparent;
+    li {
+      &.mobile {
+        display: list-item;
+      }
+      a {
+        color: $page-navbar-inverse-color;
+        font-size: 16px !important;
+        display: inline-block;
+        padding: 0px;
+      }
+      &.active, &:hover {
+        a {
+          background-color: transparent;
+          color: $brand-primary;
+        }
+        .pointer {
+          position: relative;
+          background-color: transparent !important;
+          width: 40px;
+          height: 22px;
+          background-image: url('../images/pointer.png');
+          background-color: #d2d2d2;
+          z-index: 1;
+          margin: 0 auto;
+          top: 60px;
+        }
+      }
+      p {
+        padding-top: 13px;
+        min-width: 100px;
+        width: 100%;
+        text-align: left;
+        &.mobile {
+          width: auto;
+          min-width: 320px;
+          border-bottom: solid 1px #d2d2d2;
+          padding-top: 0px;
+          padding: 10px;
+          text-align: left;
+          clear: left;
+          .glyphicon {
+            padding-right: 10px;
+          }
+        }
+        &.last {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .nav-icon {
+    width: 90px;
+    height: 90px;
+    background-size: 75px 75px;
+    background-repeat:no-repeat;
+    background-position:center;
+    float: left;
+
+  }
+}
+
+.case-study-top {
+  margin-bottom: 15px;
+  button {
+    margin-bottom: 10px;
+  }
+}
+
+// START ACCORDION
+#accordion, #analytical-var, #polymer-var, .polymer-var {
+	.glyphicon, a {
+		color: $brand-primary;
+	}
+	.glyphicon {
+		padding-right: 10px;
+	}
+	.panel, .panel-default, .panel-heading  {
+		border: none;
+		background-color: transparent;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		border-radius: 0px;
+	}
+	.panel-body {
+		background-color: $brand-primary;
+		color: #ffffff;
+	}
+	p {
+		padding: 0px;
+	}
+	h4 {
+		font-weight: 800;
+		font-size: 21px;
+	}
+}
+.polymer-var {
+	margin-bottom: 10px;
+}
+
+// END ACCORDION
+
+// START VARIATION
+.variation, .timeline {
+	background-color: $brand-primary;
+	padding-top: 20px 0px;
+	p, h4, h1, li, a {
+		color: #ffffff;
+	}
+	h1 {
+		margin-bottom: 50px;
+		a {
+			color: #d2d2d2;
+			&:hover {
+				text-decoration: none;
+				color: #ffffff;
+			}
+		}
+	}
+	.polymed-numbers {
+	  color: #ffffff;
+	}
+	.polymed-number {
+	  border: 1px solid #ffffff;
+	  margin: 25px 0px;
+  		span {
+  			color: #ffffff;
+  		}
+	}
+	.polymers {
+		p {
+			margin-bottom: 30px;
+			text-align: center;
+			a {
+				text-decoration: underline;
+				&:hover {
+					color: #d2d2d2;
+				}
+			}
+		}
+		ul {
+			padding-bottom: 8px;
+		}
+	}
+	li {
+		list-style: none;
+		letter-spacing: .03em;
+		font-size: 12px;
+		strong {
+			font-size: 14px;
+		}
+	}
+}
+.request {
+	text-decoration: underline !important;
+}
+.key {
+	h5 {
+		border-bottom: 1px solid #ffffff;
+		padding: 20px;
+	}
+}
+// END VARIATION
+
+/////////
+// NEWS STYLES
+//
+.news-entries {
+  .row {
+    margin-bottom: 20px;
+  }
+  .entry-title {
+    font-size: 16px;
+  }
+  .entry-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .share-this {
+    padding: 0 0 10px 0;
+    * {
+      box-sizing: content-box;
+    }
+  }
+}
+
+.news-entry {
+  .entry-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.share-this {
+  padding: 10px 0 20px 0;
+  * {
+    box-sizing: content-box;
+  }
+}
+
+.symbol {
+	padding-left: 70px;
+	margin-bottom: 0px !important;
+	margin-top: 70px;
+	.pmi-symbol {
+		width: 51px;
+		height: 51px;
+		background-image: url('../images/pmi-symbol.png');
+		position: absolute;
+		margin-left: -70px;
+		margin-top: -7px;
+	}
+	.pmi-symbol-sm {
+		width: 30px;
+		height: 30px;
+		background-image: url('../images/pmi-symbol-sm.gif');
+		position: absolute;
+		margin-left: -70px;
+		margin-top: -7px;
+	}
+}
+
+.lead {
+	margin: 26px 0px 8px 0px;
+        a[data-contact-form] {
+          font-size: 21px;
+        }
+}
+.row {
+	//margin: 0px;
+}
+
+.archive {
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+// END NEWS STYLES
+
+/////////
+// FOOTER STYLES
+//
+.site-footer {
+  background: #000000 url(../images/poly-med-footer.jpg) no-repeat;
+  background-size: 100%;
+  color: #fff;
+  font-size: 12px;
+  min-height: 400px;
+  padding-top: 20px;
+  h2 {
+    margin-bottom: 30px;
+  }
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+// END FOOTER STYLES
+
+
+//
+.loaded-content {
+  overflow: hidden;
+  .entry-content {
+    overflow: hidden;
+    //height: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+///////////////
+// JS timeline
+///
+///
+.js-timeline-text {
+  font-family: 'Helvetica', Arial, sans-serif;
+  color: #fff;
+  margin-bottom: 100px;
+  text-align: center;
+  h3 {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+  }
+  p {
+  	min-height: 180px;
+  }
+}
+.js-timeline {
+  position: relative;
+  .line {
+    border-top: 4px solid #fff;
+  }
+  .point {
+    position: absolute;
+    background: url(../images/timeline.png) no-repeat;
+    height: 37px;
+    margin-top: -18px;
+    width: 45px;
+    &:hover, &.active {
+      background: url(../images/timeline_active.png) no-repeat;
+      cursor: pointer;
+    }
+    .text {
+      position: absolute;
+      top: 37px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+.back-to-top-container {
+  position: relative;
+}
+
+.back-to-top {
+  background: url(../images/top.png);
+  bottom: 20px;
+  display: block;
+  height: 77px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-indent: -100%;
+  width: 81px;
+}
+a[data-contact-form] {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@meida screen and (max-width: 600px){
+  .carousel-image-mobile {
+    transform: translate(-38%);
+   }
+}
