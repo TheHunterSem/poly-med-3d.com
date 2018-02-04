@@ -35,8 +35,13 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/filaments-1.png" alt="">
                 </div>
                 <div class="content-block">
-                    <span class="circle">1</span>
-                    <p></p>
+                    <div class="content-item">
+                        <span class="circle">1</span>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias eaque facere facilis
+                            iure, labore minus modi molestias, quae repellendus sed, suscipit voluptatem voluptates.
+                            Debitis, in, temporibus?
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
