@@ -32,7 +32,14 @@
     <section class="quality-controlled-printing">
         <h2 class="header-content-general">QUALITY CONTROLLED 3D PRINTING</h2>
         <div class="design-service-process-wrapper">
-            
+            <div class="top-elements"></div>
+            <div class="middle-elements">
+                <div class="item-block">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="">
+                    <h4 class="title-header">DESIGN SERVICE PROCESS</h4>
+                </div>
+            </div>
+            <div class="bottom-elements"></div>
         </div>
     </section>
 

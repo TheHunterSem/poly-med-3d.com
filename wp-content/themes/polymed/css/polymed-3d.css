@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'BrandonGrotesque-Regular';
     src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot');
@@ -33,6 +34,32 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'AvenirNext-Medium';
+    src: url('../fonts/AvenirNext/AvenirNext-Medium.eot');
+    src: url('../fonts/AvenirNext/AvenirNext-Medium.woff2') format('woff2'),
+    url('../fonts/AvenirNext/AvenirNext-Medium.woff') format('woff'),
+    url('../fonts/AvenirNext/AvenirNext-Medium.ttf') format('truetype'),
+    url('../fonts/AvenirNext/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg'),
+    url('../fonts/AvenirNext/AvenirNext-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext-DemiBold';
+    src: url('../fonts/AvenirNext/AvenirNext-DemiBold.eot');
+    src: url('../fonts/AvenirNext/AvenirNext-DemiBold.woff2') format('woff2'),
+    url('../fonts/AvenirNext/AvenirNext-DemiBold.woff') format('woff'),
+    url('../fonts/AvenirNext/AvenirNext-DemiBold.ttf') format('truetype'),
+    url('../fonts/AvenirNext/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg'),
+    url('../fonts/AvenirNext/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 @font-face {
     font-family: 'polymed-3d-icons';
@@ -630,4 +657,51 @@ footer .social-block .socials-icons ul li a {
 
 .printing-materials-goods-wrapper .text-content-general {
     max-width: 860px;
+}
+
+.design-service-process-wrapper .middle-elements .item-block {
+    display: block;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url('../images/radial-decoration.png');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.design-service-process-wrapper .middle-elements .item-block img {
+    max-width: 320px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.design-service-process-wrapper .title-header {
+    color: #2F3131;
+    font-family: 'AvenirNext-DemiBold';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 270px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.design-service-process-wrapper .middle-elements .item-block .title-header {
+    position: absolute;
+    top: calc(50% + 104px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
