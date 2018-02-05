@@ -75,7 +75,49 @@
                 </div>
             </div>
 
+            <div class="purple-btn-block">
+                <a href="#" class="purple-btn">print with us</a>
+            </div>
+
         </div>
+    </section>
+
+    <section class="printing-materials-goods-wrapper">
+        <h2 class="header-content-general">3D PRINTING MATERIALS</h2>
+        <p class="text-content-general">We currently offer the polymers below and also can provide custom material solutions for your 3D
+            printing applications. <a href="mailto:sales@poly-med3d.com">Contact Us</a> sales@poly-med3d.com
+        </p>
+
+        <ul class="items-list">
+            <li>
+                <?php
+                $args = array(
+                    'post_type'      => 'product',
+                    'posts_per_page' => 4,
+                );
+
+                $loop = new WP_Query( $args );
+
+                while ( $loop->have_posts() ) : $loop->the_post();
+                    global $product;
+
+                    echo '<a href="'. get_permalink() .'">'. get_the_title() .'</a>';
+
+                    echo '<p>'. $product->post->post_excerpt .'</p>';
+
+                    $attachment_ids = $product->get_gallery_attachment_ids();
+
+                    foreach( $attachment_ids as $attachment_id ) {
+                        echo '<a href="'. get_permalink() .'"><img src="'. $image_link = wp_get_attachment_url( $attachment_id ) .'"></a>';
+                    }
+
+                endwhile;
+
+                wp_reset_query();
+                ?>
+            </li>
+        </ul>
+
     </section>
 
 </div>

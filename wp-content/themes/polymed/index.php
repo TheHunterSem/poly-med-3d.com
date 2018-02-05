@@ -102,7 +102,7 @@
                     <a href="mailto:sales@poly-med3d.com">Contact us</a> at sales@poly-med3d.com to learn more!
                 </p>
             </div>
-            <a href="#" class="see-services-link">SEE SERVICES</a>
+            <a href="#" class="see-services-link purple-btn">SEE SERVICES</a>
         </div>
     </section>
 

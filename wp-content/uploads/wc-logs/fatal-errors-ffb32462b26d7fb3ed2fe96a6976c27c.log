@@ -1,0 +1,24 @@
+2018-02-05T10:32:53+00:00 CRITICAL Call to undefined function store_get_cart_product_variations()
+
+2018-02-05T10:32:57+00:00 CRITICAL Call to undefined function store_get_cart_product_variations()
+
+2018-02-05T10:33:07+00:00 CRITICAL Call to undefined function store_get_cart_product_variations()
+
+2018-02-05T10:33:27+00:00 CRITICAL Call to undefined function store_get_cart_product_variations()
+
+2018-02-05T11:05:48+00:00 CRITICAL Call to undefined function store_get_cart_product_variations()
+
+2018-02-05T12:43:32+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:43:37+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:43:38+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:43:40+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:44:07+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:44:10+00:00 CRITICAL Call to a member function get_image() on null
+
+2018-02-05T12:51:55+00:00 CRITICAL Call to a member function get_image() on null
+

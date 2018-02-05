@@ -32,3 +32,5 @@ register_nav_menus(array(
 ));
 
 remove_filter('the_content', 'wpautop');
+
+
