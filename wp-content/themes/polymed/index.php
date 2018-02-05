@@ -13,7 +13,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/images/HeroShot-1.jpg" alt="">
     </div>
     <div class="content-block">
-        <h1 class="header">POLY-MED 3D TECHNOLOGIES</h1>
+        <h1 class="header">POLY-MED 3D <br> TECHNOLOGIES</h1>
         <p class="text">Poly-Med provides fully traceable, medical grade polymers and filaments for additive
             manufacturing, along
             with in-house fused filament printing services. Our materials offer distinct advantages by their unique

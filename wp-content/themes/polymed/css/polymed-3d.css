@@ -352,6 +352,11 @@ footer .social-block .socials-icons ul li a {
     line-height: 24px;
 }
 
+.main-top-banner-wrapper .purple-btn-block .purple-btn {
+    width: 100%;
+    text-decoration: underline;
+}
+
 .header-content-general {
     display: block;
     margin: 0 auto;

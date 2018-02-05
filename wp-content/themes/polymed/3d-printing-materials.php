@@ -84,38 +84,72 @@
 
     <section class="printing-materials-goods-wrapper">
         <h2 class="header-content-general">3D PRINTING MATERIALS</h2>
-        <p class="text-content-general">We currently offer the polymers below and also can provide custom material solutions for your 3D
+        <p class="text-content-general">We currently offer the polymers below and also can provide custom material
+            solutions for your 3D
             printing applications. <a href="mailto:sales@poly-med3d.com">Contact Us</a> sales@poly-med3d.com
         </p>
 
         <ul class="items-list">
-            <li>
-                <?php
-                $args = array(
-                    'post_type'      => 'product',
-                    'posts_per_page' => 4,
-                );
+            <?php
+            $args = array(
+                'post_type' => 'product',
+                'posts_per_page' => 4,
+                'meta_query' => array(
+                    array(
+                        'key' => '_stock_status',
+                        'value' => 'instock'
+                    )
+                )
+            );
 
-                $loop = new WP_Query( $args );
+            $loop = new WP_Query($args);
 
-                while ( $loop->have_posts() ) : $loop->the_post();
-                    global $product;
 
-                    echo '<a href="'. get_permalink() .'">'. get_the_title() .'</a>';
+            while ($loop->have_posts()) : $loop->the_post();
 
-                    echo '<p>'. $product->post->post_excerpt .'</p>';
+                global $product;
 
-                    $attachment_ids = $product->get_gallery_attachment_ids();
+                echo '<li>';
 
-                    foreach( $attachment_ids as $attachment_id ) {
-                        echo '<a href="'. get_permalink() .'"><img src="'. $image_link = wp_get_attachment_url( $attachment_id ) .'"></a>';
+
+                echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a>';
+
+                // Get the short description START
+                echo '<p>' . $product->post->post_excerpt . '</p>';
+                // Get the short description END
+
+
+
+                // Get the first two images START
+                $attachment_ids = $product->get_gallery_attachment_ids();
+                $i = 0;
+                foreach ($attachment_ids as $attachment_id) {
+                    if ($i < 2) {
+                        echo '<a href="' . get_permalink() . '"><img src="' . $image_link = wp_get_attachment_url($attachment_id) . '"></a>';
+                        $i++;
                     }
+                }
+                // Get the first two images END
 
-                endwhile;
 
-                wp_reset_query();
-                ?>
-            </li>
+
+
+                // Get the attributes START
+
+                echo $product->list_attributes();
+
+                // Get the attributes END
+
+
+
+
+
+                echo '</li>';
+
+            endwhile;
+
+            wp_reset_query();
+            ?>
         </ul>
 
     </section>
