@@ -718,3 +718,13 @@ footer .social-block .socials-icons ul li a {
 .design-service-process-wrapper .bottom-elements .item-block {
     display: inline-block;
 }
+
+.design-service-process-wrapper .top-elements,
+.design-service-process-wrapper .bottom-elements {
+    position: relative;
+    text-align: center;
+}
+
+.design-service-process-wrapper .top-elements {
+    padding-bottom: 15px;
+}
