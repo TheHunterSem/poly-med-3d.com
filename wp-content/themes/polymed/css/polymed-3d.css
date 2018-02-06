@@ -668,7 +668,10 @@ footer .social-block .socials-icons ul li a {
 
 .design-service-process-wrapper .middle-elements .item-block {
     display: block;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -714,17 +717,49 @@ footer .social-block .socials-icons ul li a {
     font-size: 20px;
 }
 
-.design-service-process-wrapper .top-elements .item-block,
-.design-service-process-wrapper .bottom-elements .item-block {
-    display: inline-block;
-}
-
 .design-service-process-wrapper .top-elements,
 .design-service-process-wrapper .bottom-elements {
     position: relative;
     text-align: center;
+    height: 443px;
+    display: block;
 }
 
-.design-service-process-wrapper .top-elements {
-    padding-bottom: 15px;
+.design-service-process-wrapper .top-elements .item-block,
+.design-service-process-wrapper .bottom-elements .item-block {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+}
+
+.design-service-process-wrapper .bottom-elements {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.design-service-process-wrapper .top-elements .item-block.first,
+.design-service-process-wrapper .top-elements .item-block.last {
+    position: absolute;
+    bottom: 0;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.first,
+.design-service-process-wrapper .bottom-elements .item-block.last {
+    position: absolute;
+    top: 0;
+}
+
+.design-service-process-wrapper .top-elements .item-block.first,
+.design-service-process-wrapper .bottom-elements .item-block.first {
+    left: 0;
+}
+
+.design-service-process-wrapper .top-elements .item-block.last,
+.design-service-process-wrapper .bottom-elements .item-block.last {
+    right: 0;
 }

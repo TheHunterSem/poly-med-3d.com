@@ -34,7 +34,7 @@
         <div class="design-service-process-wrapper">
 
             <div class="top-elements">
-                <div class="item-block">
+                <div class="item-block first">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-1.png" alt="">
                 </div>
                 <div class="item-block">
@@ -46,7 +46,7 @@
                 <div class="item-block">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block last">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-5.png" alt="">
                 </div>
             </div>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="bottom-elements">
-                <div class="item-block">
+                <div class="item-block first">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6.png" alt="">
                 </div>
                 <div class="item-block">
@@ -71,7 +71,7 @@
                 <div class="item-block">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block last">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-10.png" alt="">
                 </div>
             </div>
