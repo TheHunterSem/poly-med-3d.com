@@ -659,6 +659,13 @@ footer .social-block .socials-icons ul li a {
     max-width: 860px;
 }
 
+.design-service-process-wrapper {
+    position: relative;
+    background-color: #fff;
+    padding: 30px 35px;
+    box-sizing: border-box;
+}
+
 .design-service-process-wrapper .middle-elements .item-block {
     display: block;
     position: relative;
@@ -671,6 +678,7 @@ footer .social-block .socials-icons ul li a {
     background-position: center center;
     background-size: 100% 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .design-service-process-wrapper .middle-elements .item-block img {
@@ -704,4 +712,9 @@ footer .social-block .socials-icons ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+}
+
+.design-service-process-wrapper .top-elements .item-block,
+.design-service-process-wrapper .bottom-elements .item-block {
+    display: inline-block;
 }
