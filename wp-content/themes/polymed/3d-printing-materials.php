@@ -76,7 +76,7 @@
             </div>
 
             <div class="purple-btn-block">
-                <a href="#" class="purple-btn">print with us</a>
+                <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
             </div>
 
         </div>
@@ -88,6 +88,24 @@
             solutions for your 3D
             printing applications. <a href="mailto:sales@poly-med3d.com">Contact Us</a> sales@poly-med3d.com
         </p>
+
+        <div class="key-wrapper">
+            <div class="key-block">
+                <span class="header">Key</span>
+                <span class="plus-btn"><i class="icon-plus"></i></span>
+            </div>
+            <div class="key-info-block">
+                <ul>
+                    <li><span>G = Glycolide</span></li>
+                    <li><span>L = Lactide</span></li>
+                    <li><span>D = Dioxanone</span></li>
+                    <li><span>PEG = Polyethylene Glycol</span></li>
+                    <li><span>TMC = Trimethylene Carbonate</span></li>
+                    <li><span>C = Caprolactone</span></li>
+                    <li><span>PPS = Polypropylene succinate</span></li>
+                </ul>
+            </div>
+        </div>
 
         <ul class="items-list">
             <?php

@@ -60,12 +60,12 @@
 
 @font-face {
     font-family: 'polymed-3d-icons';
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?4228855');
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?4228855#iefix') format('embedded-opentype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?4228855') format('woff2'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?4228855') format('woff'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?4228855') format('truetype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?4228855#polymed-3d-icons') format('svg');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?79514096');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?79514096#iefix') format('embedded-opentype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?79514096') format('woff2'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?79514096') format('woff'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?79514096') format('truetype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?79514096#polymed-3d-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -86,6 +86,7 @@
 
 .icon-ok:before { content: '\e800'; } /* '' */
 .icon-play:before { content: '\e801'; } /* '' */
+.icon-plus:before { content: '\e802'; } /* '' */
 .icon-shopping-cart:before { content: '\e806'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
@@ -1245,4 +1246,96 @@ footer .social-block .socials-icons ul li a {
     color: #292929;
     font-size: 18px;
     line-height: 20px;
+}
+
+.buttons-wrapper .ajax-loader {
+    position: absolute;
+}
+
+.key-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.key-wrapper .key-info-block {
+    background-color: #9a00f2;
+    padding: 21px 20px 21px 20px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    display: none;
+}
+
+.key-wrapper .key-info-block ul {
+    display: flex;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    flex-wrap: wrap;
+    height: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.key-wrapper .key-info-block ul li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.key-wrapper .key-block {
+    margin-bottom: 22px;
+    position: relative;
+    border-bottom: 2px solid #979797;
+    padding-bottom: 22px;
+}
+
+.key-wrapper .key-block .header {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'BrandonGrotesque-Medium';
+}
+
+.key-wrapper .key-block .plus-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    border: 2px solid #201D1D;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.key-wrapper .key-block .plus-btn i {
+    height: 29px;
+    width: 29px;
+    text-align: center;
+    line-height: 29px;
+    display: inline-block;
+    color: #201D1D;
+}
+
+.key-wrapper .key-block .plus-btn.active {
+    background-color: #9A00F2;
+    transform: rotate(45deg);
+    border: 2px solid #9A00F2;
+}
+
+.key-wrapper .key-block .plus-btn.active i {
+    color: #ffffff;
 }
