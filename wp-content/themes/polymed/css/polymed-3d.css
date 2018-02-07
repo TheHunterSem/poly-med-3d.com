@@ -382,6 +382,7 @@ footer .social-block .socials-icons ul li a {
 .main-top-banner-wrapper .purple-btn-block .purple-btn {
     width: 100%;
     text-decoration: underline;
+    margin: 0;
 }
 
 .header-content-general {
@@ -980,8 +981,7 @@ footer .social-block .socials-icons ul li a {
     text-align: right;
 }
 
-.print-with-us .wpcf7-form .buttons-wrapper input[type="submit"],
-.print-with-us .wpcf7-form .buttons-wrapper input[type="file"] {
+.print-with-us .wpcf7-form .buttons-wrapper input[type="submit"] {
     background-color: #9A00F2;
     display: inline-block;
     outline: none;
@@ -999,37 +999,25 @@ footer .social-block .socials-icons ul li a {
     position: relative;
 }
 
-.print-with-us .wpcf7-form .buttons-wrapper input[type="submit"] {
-    overflow: hidden;
+.print-with-us .wpcf7-form .buttons-wrapper input[type="file"] {
+    display: none;
 }
 
-.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-file {
-    position: relative;
-    margin-right: 20px;
-}
-
-.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-form-control-wrap:last-child {
-    margin-right: 0;
-}
-
-.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-file::after {
-    position: absolute;
-    content: 'UPLOAD FILE';
-    text-align: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    z-index: 100;
-    display: block;
+.print-with-us .wpcf7-form .buttons-wrapper label {
     background-color: #9A00F2;
+    display: inline-block;
+    outline: none;
+    border: none;
     color: #FFFFFF;
     font-family: 'BrandonGrotesque-Medium';
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
+    height: 50px;
+    width: 220px;
+    vertical-align: top;
+    margin-right: 20px;
+    text-align: center;
     line-height: 50px;
 }
