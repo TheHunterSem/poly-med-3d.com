@@ -926,3 +926,110 @@ footer .social-block .socials-icons ul li a {
 .design-service-process-wrapper .bottom-elements .item-block.last .title {
     right: -37px;
 }
+
+.quality-controlled-printing .quality-controlled-printing-text {
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.print-with-us {
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.print-with-us .wpcf7-form input[type="text"],
+.print-with-us .wpcf7-form input[type="email"],
+.print-with-us .wpcf7-form textarea {
+    height: 40px;
+    max-width: 750px;
+    width: 100%;
+    border: 1px solid #474747;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'AvenirNext-Medium';
+    color: #474747;
+}
+
+.print-with-us .wpcf7-form textarea {
+    height: 136px;
+    resize: none;
+}
+
+.print-with-us .wpcf7-form ::-webkit-input-placeholder,
+.print-with-us .wpcf7-form :-moz-placeholder,
+.print-with-us .wpcf7-form :-ms-input-placeholder,
+.print-with-us .wpcf7-form ::-moz-placeholder {
+    font-family: 'AvenirNext-Medium';
+    color: #474747;
+}
+
+.print-with-us .wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper {
+    text-align: right;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper input[type="submit"],
+.print-with-us .wpcf7-form .buttons-wrapper input[type="file"] {
+    background-color: #9A00F2;
+    display: inline-block;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 50px;
+    width: 220px;
+    vertical-align: top;
+    position: relative;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper input[type="submit"] {
+    overflow: hidden;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-file {
+    position: relative;
+    margin-right: 20px;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-form-control-wrap:last-child {
+    margin-right: 0;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper .wpcf7-file::after {
+    position: absolute;
+    content: 'UPLOAD FILE';
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    display: block;
+    background-color: #9A00F2;
+    color: #FFFFFF;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 50px;
+}

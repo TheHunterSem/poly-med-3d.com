@@ -22,7 +22,7 @@
         </p>
     </div>
     <div class="purple-btn-block">
-        <a href="#" class="purple-btn">See our high quality 3d printing materials solutions for all your needs</a>
+        <p class="purple-btn">See our high quality 3d printing materials solutions for all your needs</p>
     </div>
 </div>
 
@@ -86,6 +86,22 @@
                 </div>
             </div>
 
+        </div>
+
+        <p class="text quality-controlled-printing-text">Poly-Med is an FDA and ISO 13485/9001 registered company that operates a manufacturing facility in
+            compliance to 21 CFR Part 820, Quality System Regulation. Because we have the ability to see a product through
+            design to manufacture, our quality assurance standards are engrained in the very core of our company.
+        </p>
+
+    </section>
+
+    <section class="print-with-us">
+        <div class="wrapper">
+            <h2 class="header-content-general">PRINT WITH US</h2>
+            <p class="text">Please provide us with the required information below to start your custom project today. For
+                files larger than 10MB, please email us at sales@poly-med3d.com.
+            </p>
+            <?php echo do_shortcode('[contact-form-7 id="1659" title="Untitled"]') ?>
         </div>
     </section>
 
