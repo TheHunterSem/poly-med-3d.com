@@ -49,14 +49,14 @@
 
             <div class="third-item-block">
                 <div class="item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-4.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-1.png" alt="">
                     <p class="text">Poly-Med is an FDA and ISO 13485 registered company that operates a manufacturing
                         facility in compliance to 21 CFR Part 820, Quality System Regulation. Because we have the
                         ability to see our products from raw monomer to extruded 3D filament, our quality assurance
                         standards are engrained in the very core of our company.</p>
                 </div>
                 <div class="item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-4.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-2.png" alt="">
                     <p class="text">All 3D filaments are further inspected and assessed for molecular properties to
                         ensure consistent and repeatable printing. Our materials are tested for molecular weight,
                         monomer content, and thermal properties.</p>
