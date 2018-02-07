@@ -662,16 +662,22 @@ footer .social-block .socials-icons ul li a {
 .design-service-process-wrapper {
     position: relative;
     background-color: #fff;
-    padding: 30px 35px;
+    padding: 30px 45px;
     box-sizing: border-box;
 }
 
-.design-service-process-wrapper .middle-elements .item-block {
+.design-service-process-wrapper .middle-elements {
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+}
+
+.design-service-process-wrapper .middle-elements .item-block {
+    display: block;
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -723,6 +729,7 @@ footer .social-block .socials-icons ul li a {
     text-align: center;
     height: 443px;
     display: block;
+    margin-bottom: 44px;
 }
 
 .design-service-process-wrapper .top-elements .item-block,
@@ -730,6 +737,7 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     height: 170px;
     width: 170px;
+    position: relative;
 }
 
 .design-service-process-wrapper .bottom-elements {
@@ -738,8 +746,34 @@ footer .social-block .socials-icons ul li a {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.design-service-process-wrapper .top-elements .item-block.second {
+    position: absolute;
+    left: 130px;
+    top: 76px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.fourth {
+    position: absolute;
+    right: 130px;
+    top: 76px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.second {
+    position: absolute;
+    left: 136px;
+    bottom: 72px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.fourth {
+    position: absolute;
+    right: 136px;
+    bottom: 72px;
 }
 
 .design-service-process-wrapper .top-elements .item-block.first,
@@ -754,12 +788,70 @@ footer .social-block .socials-icons ul li a {
     top: 0;
 }
 
-.design-service-process-wrapper .top-elements .item-block.first,
-.design-service-process-wrapper .bottom-elements .item-block.first {
+.design-service-process-wrapper .top-elements .item-block.first {
     left: 0;
 }
 
-.design-service-process-wrapper .top-elements .item-block.last,
-.design-service-process-wrapper .bottom-elements .item-block.last {
+.design-service-process-wrapper .top-elements .item-block.first::after {
+    position: absolute;
+    content: '';
+    top: 0;
     right: 0;
+    background-image: url('../images/arrow-top-first.png');
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.first {
+    left: 4px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.last {
+    right: 0;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.last {
+    right: 4px;
+}
+
+.design-service-process-wrapper .top-elements .item-block img,
+.design-service-process-wrapper .bottom-elements .item-block img {
+    z-index: 5;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+}
+
+.design-service-process-wrapper .top-elements .item-block::after,
+.design-service-process-wrapper .bottom-elements .item-block::after {
+    position: absolute;
+    content: '';
+    background-position: center center;
+    width: 66px;
+    height: 66px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.design-service-process-wrapper .top-elements .item-block.first::after {
+    background-image: url(../images/arrow-top-first.png);
+    transform: rotate(5deg);
+    top: -7px;
+    right: 0;
+}
+
+.design-service-process-wrapper .top-elements .item-block.second::after {
+    background-image: url(../images/arrow-top-second.png);
+    top: 8px;
+    right: -17px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.third::after {
+    background-image: url(../images/arrow-top-third.png);
+    top: 73px;
+    right: -32px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.fourth::after {
+    background-image: url(../images/arrow-top-fourth.png);
+    top: 115px;
+    right: -3px;
 }

@@ -37,13 +37,13 @@
                 <div class="item-block first">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-1.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block second">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-2.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block third">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-3.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block fourth">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4.png" alt="">
                 </div>
                 <div class="item-block last">
@@ -62,13 +62,13 @@
                 <div class="item-block first">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block second">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7.png" alt="">
                 </div>
                 <div class="item-block">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block fourth">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9.png" alt="">
                 </div>
                 <div class="item-block last">
