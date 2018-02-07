@@ -43,7 +43,7 @@
     url('../fonts/AvenirNext/AvenirNext-Medium.ttf') format('truetype'),
     url('../fonts/AvenirNext/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg'),
     url('../fonts/AvenirNext/AvenirNext-Medium.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -55,7 +55,7 @@
     url('../fonts/AvenirNext/AvenirNext-DemiBold.ttf') format('truetype'),
     url('../fonts/AvenirNext/AvenirNext-DemiBold.svg#AvenirNext-DemiBold') format('svg'),
     url('../fonts/AvenirNext/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -879,4 +879,50 @@ footer .social-block .socials-icons ul li a {
     top: -11px;
     right: -6px;
     transform: rotate(-36deg);
+}
+
+.design-service-process-wrapper .top-elements .item-block .title,
+.design-service-process-wrapper .bottom-elements .item-block .title {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'AvenirNext-DemiBold';
+    color: #2F3131;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+
+.design-service-process-wrapper .top-elements .item-block.first .title {
+    top: -42px;
+    left: -35px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.second .title,
+.design-service-process-wrapper .top-elements .item-block.third .title,
+.design-service-process-wrapper .top-elements .item-block.fourth .title {
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.design-service-process-wrapper .top-elements .item-block.third .title {
+    width: 200px;
+}
+
+.design-service-process-wrapper .top-elements .item-block.last .title {
+    top: -25px;
+    right: -40px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.first .title {
+    left: -37px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.last .title {
+    right: -37px;
 }
