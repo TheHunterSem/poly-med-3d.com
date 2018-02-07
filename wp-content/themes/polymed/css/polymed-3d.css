@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'BrandonGrotesque-Regular';
     src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot');
@@ -59,27 +58,23 @@
     font-style: normal;
 }
 
-
-
 @font-face {
     font-family: 'polymed-3d-icons';
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?81050233');
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?81050233#iefix') format('embedded-opentype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?81050233') format('woff2'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?81050233') format('woff'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?81050233') format('truetype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?81050233#polymed-3d-icons') format('svg');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?4228855');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?4228855#iefix') format('embedded-opentype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?4228855') format('woff2'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?4228855') format('woff'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?4228855') format('truetype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?4228855#polymed-3d-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "polymed-3d-icons";
     font-style: normal;
     font-weight: normal;
     speak: none;
-
     display: inline-block;
     text-decoration: inherit;
     text-align: center;
@@ -89,12 +84,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ok:before { content: '\e800'; } /* '' */
 .icon-play:before { content: '\e801'; } /* '' */
 .icon-shopping-cart:before { content: '\e806'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
-
-
 
 body {
     padding: 0;
@@ -106,11 +100,11 @@ body {
     padding-bottom: 20px;
 }
 
-
 .purple-btn-block {
     text-align: center;
     width: 100%;
 }
+
 .purple-btn {
     text-decoration: none;
     color: #FFFFFF;
@@ -122,6 +116,8 @@ body {
     line-height: 18px;
     padding: 16px 20px;
     min-width: 220px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
@@ -131,17 +127,26 @@ body {
     margin: 0 auto;
     position: relative;
     background-position: center center;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
     background-size: auto;
 }
 
 .youtube .play {
     background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
     border-radius: 100%;
     display: block;
     width: 80px;
     height: 80px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
     cursor: pointer;
@@ -152,7 +157,13 @@ body {
     content: '\e801';
     color: #474747;
     top: 50%;
+    left: -webkit-calc(50% + 3px);
+    left: -moz-calc(50% + 3px);
     left: calc(50% + 3px);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-family: 'polymed-3d-icons';
     font-size: 27px;
@@ -164,6 +175,8 @@ body {
     max-width: 984px;
     margin: 0 auto;
     padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #EDEFF3;
     padding-bottom: 40px;
@@ -173,6 +186,8 @@ header {
     display: block;
     max-width: 1024px;
     padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
@@ -181,7 +196,15 @@ header {
 header .header-main {
     height: 80px;
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-color: #FFFFFF;
     margin: 0 auto;
@@ -234,7 +257,6 @@ header .header-main {
     font-size: 24px;
     vertical-align: middle;
 }
-
 
 footer {
     display: block;
@@ -304,7 +326,6 @@ footer .menu-footer_menu-container {
     margin-bottom: 10px;
 }
 
-
 #menu-footer_menu li:last-child {
     margin-bottom: 0;
 }
@@ -338,11 +359,12 @@ footer .social-block .socials-icons ul li a {
     font-size: 34px;
 }
 
-
 .main-top-banner-wrapper {
     position: relative;
     max-width: 1024px;
     padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
@@ -363,7 +385,7 @@ footer .social-block .socials-icons ul li a {
 }
 
 .main-top-banner-wrapper .content-block .header {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 36px;
     line-height: 40px;
@@ -373,7 +395,7 @@ footer .social-block .socials-icons ul li a {
 
 .main-top-banner-wrapper .content-block .text {
     color: #FFFFFF;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 18px;
     font-family: 'BrandonGrotesque-Medium';
     line-height: 24px;
@@ -422,7 +444,15 @@ footer .social-block .socials-icons ul li a {
 .what_we_provide-wrapper {
     width: 100%;
     text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -453,6 +483,8 @@ footer .social-block .socials-icons ul li a {
     margin: 0 auto;
     width: 81px;
     height: 81px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     margin-bottom: 19.5px;
 }
@@ -504,8 +536,20 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     width: 100%;
     margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -556,11 +600,15 @@ footer .social-block .socials-icons ul li a {
     position: absolute;
     bottom: 40px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
 
 }
 
-.filaments-wrapper-items{
+.filaments-wrapper-items {
     background-color: #fff;
     padding: 40px 20px;
 }
@@ -592,6 +640,8 @@ footer .social-block .socials-icons ul li a {
     min-width: 31px;
     padding: 2.5px 2.5px;
     border: 1px solid #9A00F2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -629,9 +679,23 @@ footer .social-block .socials-icons ul li a {
 
 .filaments-wrapper-items .third-item-block {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -664,6 +728,8 @@ footer .social-block .socials-icons ul li a {
     position: relative;
     background-color: #fff;
     padding: 30px 45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -672,6 +738,10 @@ footer .social-block .socials-icons ul li a {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     height: 500px;
     width: 500px;
@@ -681,11 +751,16 @@ footer .social-block .socials-icons ul li a {
     display: block;
     height: 500px;
     width: 500px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     background-image: url('../images/radial-decoration.png');
     background-repeat: no-repeat;
     background-color: #fff;
     background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     background-size: 100% 100%;
     margin: 0 auto;
     text-align: center;
@@ -700,6 +775,10 @@ footer .social-block .socials-icons ul li a {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -718,8 +797,14 @@ footer .social-block .socials-icons ul li a {
 
 .design-service-process-wrapper .middle-elements .item-block .title-header {
     position: absolute;
+    top: -webkit-calc(50% + 104px);
+    top: -moz-calc(50% + 104px);
     top: calc(50% + 104px);
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 20px;
 }
@@ -746,8 +831,19 @@ footer .social-block .socials-icons ul li a {
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     height: 400px;
     margin-bottom: 0;
@@ -818,6 +914,8 @@ footer .social-block .socials-icons ul li a {
     z-index: 5;
     overflow: hidden;
     position: relative;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
     border-radius: 100%;
 }
 
@@ -866,6 +964,10 @@ footer .social-block .socials-icons ul li a {
     background-image: url(../images/arrow-bottom-first.png);
     top: 90px;
     right: -18px;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
     transform: rotate(-25deg);
 }
 
@@ -879,6 +981,10 @@ footer .social-block .socials-icons ul li a {
     background-image: url(../images/arrow-bottom-third.png);
     top: -11px;
     right: -6px;
+    -webkit-transform: rotate(-36deg);
+    -moz-transform: rotate(-36deg);
+    -ms-transform: rotate(-36deg);
+    -o-transform: rotate(-36deg);
     transform: rotate(-36deg);
 }
 
@@ -908,6 +1014,10 @@ footer .social-block .socials-icons ul li a {
 .design-service-process-wrapper .top-elements .item-block.fourth .title {
     top: -25px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
@@ -952,6 +1062,8 @@ footer .social-block .socials-icons ul li a {
     font-weight: 500;
     line-height: 16px;
     padding: 12px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'AvenirNext-Medium';
     color: #474747;
@@ -1020,4 +1132,117 @@ footer .social-block .socials-icons ul li a {
     margin-right: 20px;
     text-align: center;
     line-height: 50px;
+}
+
+.print-with-us .wpcf7-form span.wpcf7-list-item {
+    margin: 0;
+}
+
+.checkbox-wrapper {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/* Customize the label (the container) */
+.checkbox-wrapper label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrapper label input {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox-wrapper label .wpcf7-list-item-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #9B9B9B;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-wrapper label:hover input ~ .wpcf7-list-item-label {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wrapper label input:checked ~ .wpcf7-list-item-label {
+    background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-wrapper label .wpcf7-list-item-label:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrapper label input:checked ~ .wpcf7-list-item-label:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrapper label .wpcf7-list-item-label:after {
+    position: absolute;
+    content: '\e800';
+    font-family: "polymed-3d-icons";
+    color: #292929;
+    font-size: 14px;
+    font-weight: 100;
+    left: 3px;
+    top: 2px;
+}
+
+.checkbox-wrapper .wpcf7-form-control-wrap.checkbox-971 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.checkbox-wrapper .description {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    color: #292929;
+    font-size: 18px;
+    line-height: 20px;
 }
