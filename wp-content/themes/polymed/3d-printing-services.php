@@ -65,7 +65,7 @@
                 <div class="item-block second">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7.png" alt="">
                 </div>
-                <div class="item-block">
+                <div class="item-block third">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8.png" alt="">
                 </div>
                 <div class="item-block fourth">

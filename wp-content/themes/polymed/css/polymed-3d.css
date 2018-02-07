@@ -766,14 +766,14 @@ footer .social-block .socials-icons ul li a {
 
 .design-service-process-wrapper .bottom-elements .item-block.second {
     position: absolute;
-    left: 136px;
-    bottom: 72px;
+    left: 140px;
+    bottom: 66px;
 }
 
 .design-service-process-wrapper .bottom-elements .item-block.fourth {
     position: absolute;
-    right: 136px;
-    bottom: 72px;
+    right: 140px;
+    bottom: 66px;
 }
 
 .design-service-process-wrapper .top-elements .item-block.first,
@@ -833,8 +833,7 @@ footer .social-block .socials-icons ul li a {
 
 .design-service-process-wrapper .top-elements .item-block.first::after {
     background-image: url(../images/arrow-top-first.png);
-    transform: rotate(5deg);
-    top: -7px;
+    top: -15px;
     right: 0;
 }
 
@@ -854,4 +853,30 @@ footer .social-block .socials-icons ul li a {
     background-image: url(../images/arrow-top-fourth.png);
     top: 115px;
     right: -3px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.first::after {
+    background-image: url(../images/arrow-bottom-first.png);
+    top: 115px;
+    right: 6px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.second::after {
+    background-image: url(../images/arrow-bottom-first.png);
+    top: 90px;
+    right: -18px;
+    transform: rotate(-25deg);
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.third::after {
+    background-image: url(../images/arrow-bottom-third.png);
+    top: 38px;
+    right: -33px;
+}
+
+.design-service-process-wrapper .bottom-elements .item-block.fourth::after {
+    background-image: url(../images/arrow-bottom-third.png);
+    top: -11px;
+    right: -6px;
+    transform: rotate(-36deg);
 }
