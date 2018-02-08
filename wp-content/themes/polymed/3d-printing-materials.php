@@ -107,68 +107,74 @@
             </div>
         </div>
 
-        <ul class="items-list">
-            <?php
-            $args = array(
-                'post_type' => 'product',
-                'posts_per_page' => 4,
-                'meta_query' => array(
-                    array(
-                        'key' => '_stock_status',
-                        'value' => 'instock'
+        <div class="printing-materials-goods-block">
+            <ul class="items-list">
+                <?php
+                $args = array(
+                    'post_type' => 'product',
+                    'posts_per_page' => 4,
+                    'meta_query' => array(
+                        array(
+                            'key' => '_stock_status',
+                            'value' => 'instock'
+                        )
                     )
-                )
-            );
+                );
 
-            $loop = new WP_Query($args);
-
-
-            while ($loop->have_posts()) : $loop->the_post();
-
-                global $product;
-
-                echo '<li>';
+                $loop = new WP_Query($args);
 
 
-                echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a>';
+                while ($loop->have_posts()) : $loop->the_post();
 
-                // Get the short description START
-                echo '<p>' . $product->post->post_excerpt . '</p>';
-                // Get the short description END
+                    global $product;
+
+                    echo '<li>';
 
 
+                    echo '<h3 class="header"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
 
-                // Get the first two images START
-                $attachment_ids = $product->get_gallery_attachment_ids();
-                $i = 0;
-                foreach ($attachment_ids as $attachment_id) {
-                    if ($i < 2) {
-                        echo '<a href="' . get_permalink() . '"><img src="' . $image_link = wp_get_attachment_url($attachment_id) . '"></a>';
-                        $i++;
+                    // Get the short description START
+                    echo '<p class="description">' . $product->post->post_excerpt . '</p>';
+                    // Get the short description END
+
+                    echo '<div class="gallery-info-block">';
+                    // Get the first two images START
+                    $attachment_ids = $product->get_gallery_attachment_ids();
+                    $i = 0;
+                    echo '<div class="images-block">';
+                    foreach ($attachment_ids as $attachment_id) {
+                        if ($i < 2) {
+                            echo '<a href="' . get_permalink() . '"><img src="' . $image_link = wp_get_attachment_url($attachment_id) . '"></a>';
+                            $i++;
+                        }
                     }
-                }
-                // Get the first two images END
+                    echo '</div>';
+                    // Get the first two images END
 
 
+                    // Get the attributes START
 
+                    echo $product->list_attributes();
 
-                // Get the attributes START
+                    // Get the attributes END
 
-                echo $product->list_attributes();
+                    echo '<a class="more-info-about" href="' . get_permalink() . '">Request more info about ' . get_the_title() . '</a>';
 
-                // Get the attributes END
+                    echo '</div>';
 
+                    echo '<div class="bottom-buttons-block">';
+                    echo do_action('woocommerce_after_shop_loop_item');
+                    echo '<a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print with us</a>';
+                    echo '</div>';
 
+                    echo '</li>';
 
+                endwhile;
 
-
-                echo '</li>';
-
-            endwhile;
-
-            wp_reset_query();
-            ?>
-        </ul>
+                wp_reset_query();
+                ?>
+            </ul>
+        </div>
 
     </section>
 
