@@ -409,7 +409,7 @@ footer .social-block .socials-icons ul li a {
 
 .main-top-banner-wrapper .purple-btn-block .purple-btn {
     width: 100%;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     margin: 0;
 }
 
@@ -1054,6 +1054,10 @@ footer .social-block .socials-icons ul li a {
     right: -37px;
 }
 
+.quality-controlled-printing .header-content-general {
+    padding-bottom: 40px;
+}
+
 .quality-controlled-printing .quality-controlled-printing-text {
     margin: 40px 0;
     font-size: 18px;
@@ -1252,6 +1256,12 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     vertical-align: top;
     margin-right: 10px;
+}
+
+.checkbox-wrapper .wpcf7-form-control-wrap.checkbox-971 .wpcf7-not-valid-tip {
+    position: absolute;
+    min-width: 150px;
+    top: 42px;
 }
 
 .checkbox-wrapper .description {
@@ -1506,4 +1516,12 @@ footer .social-block .socials-icons ul li a {
 
 .printing-materials-goods-block .items-list .bottom-buttons-block .product_type_simple:not(.add_to_cart_button) {
     display: none;
+}
+
+div.wpcf7-validation-errors {
+    display: block;
+    margin-left: 0!important;
+    width: 100%;
+    max-width: 750px;
+    box-sizing: border-box;
 }
