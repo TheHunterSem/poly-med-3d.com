@@ -389,6 +389,10 @@ footer .social-block .socials-icons ul li a {
     left: 40px;
 }
 
+.main-top-banner-wrapper.printing-materials .content-block {
+    max-width: 480px;
+}
+
 .main-top-banner-wrapper .content-block .header {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -416,7 +420,7 @@ footer .social-block .socials-icons ul li a {
 .header-content-general {
     display: block;
     margin: 0 auto;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 40px 0;
     width: 100%;
     max-width: 652px;
     color: #222222;
@@ -695,6 +699,7 @@ footer .social-block .socials-icons ul li a {
 
 .filaments-wrapper-items .third-item-block {
     margin-top: 40px;
+    padding: 0 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -1284,7 +1289,7 @@ footer .social-block .socials-icons ul li a {
 
 .key-wrapper .key-info-block {
     background-color: #9a00f2;
-    padding: 21px 20px 21px 20px;
+    padding: 21px 20px 0 20px;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1293,6 +1298,9 @@ footer .social-block .socials-icons ul li a {
     font-size: 18px;
     line-height: 24px;
     display: none;
+    margin-top: -2px;
+    z-index: 10;
+    position: relative;
 }
 
 .key-wrapper .key-info-block ul {
@@ -1319,7 +1327,7 @@ footer .social-block .socials-icons ul li a {
 }
 
 .key-wrapper .key-block {
-    margin-bottom: 22px;
+    /*margin-bottom: 22px;*/
     position: relative;
     border-bottom: 2px solid #979797;
     padding-bottom: 22px;

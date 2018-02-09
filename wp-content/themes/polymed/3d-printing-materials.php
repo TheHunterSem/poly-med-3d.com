@@ -8,7 +8,7 @@
 <!-- Include Header -->
 <?php get_header(); ?>
 
-<div class="main-top-banner-wrapper">
+<div class="main-top-banner-wrapper printing-materials">
     <div class="img-block">
         <img src="<?php echo get_template_directory_uri(); ?>/images/HeroShot-2.png" alt="">
     </div>
