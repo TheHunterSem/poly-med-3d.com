@@ -17,7 +17,7 @@
  * @see         woocommerce_breadcrumb()
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+/*if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
@@ -44,4 +44,4 @@ if ( ! empty( $breadcrumb ) ) {
 
 	echo $wrap_after;
 
-}
+}*/

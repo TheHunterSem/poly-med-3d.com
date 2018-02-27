@@ -986,7 +986,7 @@ class EH_Stripe_Payment extends WC_Payment_Gateway {
                         'line_items' => array(),
                     ));
                     do_action('woocommerce_refund_processed', $refund, true);
-                    $refund_id = (WC()->version < '2.7.0') ? $refund->id : $refund->get_id();
+                    $refund_id = (WC()->version < '2.7.0') ? $refund->id() : $refund->get_id();
                     if ($wc_order->get_remaining_refund_amount() > 0 || ( $wc_order->has_free_item() && $wc_order->get_remaining_refund_items() > 0 )) {
                         /**
                          * woocommerce_order_partially_refunded.
@@ -1112,7 +1112,7 @@ class EH_Stripe_Payment extends WC_Payment_Gateway {
                         'line_items' => array(),
                     ));
                     do_action('woocommerce_refund_processed', $refund, true);
-                    $refund_id = (WC()->version < '2.7.0') ? $refund->id : $refund->get_id();
+                    $refund_id = (WC()->version < '2.7.0') ? $refund->id() : $refund->get_id();
                     if ($wc_order->get_remaining_refund_amount() > 0 || ( $wc_order->has_free_item() && $wc_order->get_remaining_refund_items() > 0 )) {
                         /**
                          * woocommerce_order_partially_refunded.

@@ -24,6 +24,9 @@
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    <link rel='stylesheet' id='woocommerce-layout-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce.css' type='text/css' media='all' />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/polymed-3d.css">
     <!--[if lt IE 9]-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -47,10 +50,6 @@
         <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
             <?php wp_nav_menu('menu=main_navigation'); ?>
         </nav>
-
-        <a class="cart-link"
-           href="<?php echo wc_get_cart_url(); ?>"><i class="icon-shopping-cart"></i>
-            (<?php echo sprintf(WC()->cart->get_cart_contents_count(), WC()->cart->get_cart_contents_count()); ?>)Cart</a>
 
     </div>
 

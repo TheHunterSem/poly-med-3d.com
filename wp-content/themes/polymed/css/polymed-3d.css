@@ -170,7 +170,8 @@ body {
     font-size: 27px;
 }
 
-.centered-container {
+.centered-container,
+#container {
     display: block;
     width: 100%;
     max-width: 984px;
@@ -1532,4 +1533,20 @@ div.wpcf7-validation-errors {
     width: 100%;
     max-width: 750px;
     box-sizing: border-box;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0;
+}
+
+.woocommerce ul.products li.product a img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    max-height: 320px;
+    display: block;
+    margin: 0;
 }
