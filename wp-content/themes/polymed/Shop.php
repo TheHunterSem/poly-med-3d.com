@@ -73,11 +73,6 @@
                             <p class="special-order-notification">If you would like to place an order for a quantity not shown please
                                 <a href="#">Contact Us</a> for a special order.</p>
 
-                            <p><?php
-
-
-
-                                 ?></p>
 
                         </div>
 
@@ -90,7 +85,7 @@
             wp_reset_query();
             ?>
         </ul>
-        <span style="cursor: pointer" id="testtest">Test submit</span>
+
     </div>
 
 

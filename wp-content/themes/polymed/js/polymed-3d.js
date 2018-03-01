@@ -41,6 +41,7 @@ jQuery(document).ready(function ($) {
     function AddProductInfoToInput() {
 
         var products = [];
+        $('#wpcf7-f1681-o1').find('#hidden-text-area').val('');
 
         $('#shop-items-block .items-list .item-element').each(function() {
 
@@ -53,15 +54,27 @@ jQuery(document).ready(function ($) {
                 var skuValue = $(ItemChecked).find('.sku_wrapper').text();
                 var quantityValue = $(ItemChecked).find('#pa_gramms').val();
 
-                console.log("name : " + nameValue + " , " , "price : " + priceValue + " , " , "sku : " + skuValue + " , " , "quantity : " + quantityValue);
-                /*var qty = 10;
-                var product_id = 1234566;
-                var product = array();
-                product['qty'] = qty;
-                product['name'] = 'fgdfgdfgdf';
-            //         ....
+                var name = nameValue;
+                var price = priceValue;
+                var sku = skuValue;
+                var quantity = quantityValue;
 
-                products[product_id] = product;*/
+                var product = [];
+
+                product['name'] = name;
+                product['price'] = price;
+                product['sku'] = sku;
+                product['quantity'] = quantity;
+
+                products['product_id'] = product;
+
+                console.log(product['name']+', '+product['price']+', '+product['sku']+', '+product['quantity']);
+
+                $('#wpcf7-f1681-o1').find('#hidden-text-area').val(
+                    $('#wpcf7-f1681-o1').find('#hidden-text-area').val() +"\n"+
+                    "NAME : "+product['name']+', ' +"PRICE : "+product['price']+', ' +"SKU : "+product['sku']+', ' +"QUANTITY : "+product['quantity']
+                );
+
             }
 
         });
@@ -69,7 +82,7 @@ jQuery(document).ready(function ($) {
 
     }
 
-    $('#testtest').on('click', function () {
+    $('#shop-submit').on('click', function () {
         AddProductInfoToInput();
     });
 

@@ -98,3 +98,5 @@ Stack trace:
 
 2018-03-01T15:14:37+00:00 CRITICAL Using $this when not in object context
 
+2018-03-01T15:19:47+00:00 CRITICAL Call to a member function get_name() on null
+

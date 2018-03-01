@@ -1808,6 +1808,6 @@ select:hover {
     font-family: 'BrandonGrotesque-Regular';
 }
 
-.special-order-notification {
-
+#hidden-text-area {
+    display: none !important;
 }
