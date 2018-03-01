@@ -60,12 +60,12 @@
 
 @font-face {
     font-family: 'polymed-3d-icons';
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?79514096');
-    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?79514096#iefix') format('embedded-opentype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?79514096') format('woff2'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?79514096') format('woff'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?79514096') format('truetype'),
-    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?79514096#polymed-3d-icons') format('svg');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?21772812');
+    src: url('../fonts/polymed-3d-icons/polymed-3d-icons.eot?21772812#iefix') format('embedded-opentype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff2?21772812') format('woff2'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.woff?21772812') format('woff'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.ttf?21772812') format('truetype'),
+    url('../fonts/polymed-3d-icons/polymed-3d-icons.svg?21772812#polymed-3d-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -88,6 +88,7 @@
 .icon-play:before { content: '\e801'; } /* '' */
 .icon-plus:before { content: '\e802'; } /* '' */
 .icon-shopping-cart:before { content: '\e806'; } /* '' */
+.icon-down-open:before { content: '\f004'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
 
@@ -1119,6 +1120,14 @@ footer .social-block .socials-icons ul li a {
     text-align: right;
 }
 
+.print-with-us .wpcf7-form .buttons-wrapper.center {
+    text-align: center;
+}
+
+.print-with-us .wpcf7-form .buttons-wrapper.request-form {
+    margin-top: 40px;
+}
+
 .print-with-us .wpcf7-form .buttons-wrapper input[type="submit"] {
     background-color: #9A00F2;
     display: inline-block;
@@ -1235,19 +1244,19 @@ footer .social-block .socials-icons ul li a {
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkbox-wrapper label .wpcf7-list-item-label:after {
+.checkbox-wrapper label .wpcf7-list-item-label::after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.checkbox-wrapper label input:checked ~ .wpcf7-list-item-label:after {
+.checkbox-wrapper label input:checked ~ .wpcf7-list-item-label::after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.checkbox-wrapper label .wpcf7-list-item-label:after {
+.checkbox-wrapper label .wpcf7-list-item-label::after {
     position: absolute;
     content: '\e800';
     font-family: "polymed-3d-icons";
@@ -1258,13 +1267,13 @@ footer .social-block .socials-icons ul li a {
     top: 2px;
 }
 
-.checkbox-wrapper .wpcf7-form-control-wrap.checkbox-971 {
+.checkbox-wrapper .wpcf7-form-control-wrap {
     display: inline-block;
     vertical-align: top;
     margin-right: 10px;
 }
 
-.checkbox-wrapper .wpcf7-form-control-wrap.checkbox-971 .wpcf7-not-valid-tip {
+.checkbox-wrapper .wpcf7-form-control-wrap .wpcf7-not-valid-tip {
     position: absolute;
     min-width: 150px;
     top: 42px;
@@ -1363,8 +1372,8 @@ footer .social-block .socials-icons ul li a {
 }
 
 .key-wrapper .key-block .plus-btn i {
-    height: 29px;
-    width: 29px;
+    height: 28px;
+    width: 28px;
     text-align: center;
     line-height: 29px;
     display: inline-block;
@@ -1549,4 +1558,256 @@ div.wpcf7-validation-errors {
     max-height: 320px;
     display: block;
     margin: 0;
+}
+
+/*.printing-materials-goods-block .item-element .gallery-info-block {
+    display: inline-block;
+    max-width: 340px;
+    width: 100%;
+    max-height: 320px;
+    height: auto;
+}*/
+
+.printing-materials-goods-block .item-element {
+    position: relative;
+}
+
+.printing-materials-goods-block .item-element .checkbox-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+.printing-materials-goods-block .item-element .checkbox-wrapper label,
+.printing-materials-goods-block .item-element .checkbox-wrapper label input,
+.printing-materials-goods-block .item-element .checkbox-wrapper label .wpcf7-list-item-label {
+    height: 30px;
+    width: 30px;
+}
+
+.printing-materials-goods-block .item-element .checkbox-wrapper label .wpcf7-list-item-label::after {
+    font-size: 20px;
+    left: 5px;
+    top: 4px;
+}
+
+.printing-materials-goods-block .item-element .product_title,
+.printing-materials-goods-block .item-element .woocommerce-variation-price .price {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'BrandonGrotesque-Medium';
+}
+
+.printing-materials-goods-block .item-element .product_title {
+    margin: 0 0 10px 0;
+}
+
+.printing-materials-goods-block .item-element .general-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.printing-materials-goods-block .item-element .gallery-info-block {
+    display: inline-block;
+    max-width: 340px;
+    width: 100%;
+    max-height: 320px;
+    height: auto;
+    float: left;
+    vertical-align: top;
+    text-align: center;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper {
+    display: inline-block;
+    max-width: 410px;
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+    vertical-align: top;
+    clear: right;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > .price,
+.printing-materials-goods-block .item-element .product-info-wrapper > .woocommerce-product-details__short-description,
+.printing-materials-goods-block .item-element .product-info-wrapper .woocommerce-variation-add-to-cart,
+.printing-materials-goods-block .item-element .product-info-wrapper .reset_variations,
+.printing-materials-goods-block .item-element .product-info-wrapper .product_meta {
+    display: none!important;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > form > .single_variation_wrap {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 30px;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations td.label,
+.printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations td.value {
+    display: block;
+    width: 100%;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations td.label label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #222222;
+    font-family: 'BrandonGrotesque-Medium';
+}
+
+/* CUSTOM SELECT START */
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    color: #1D1D1D;
+    background: #fff;
+    font-family: 'BrandonGrotesque-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    height: 41px;
+    line-height: 41px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    width: 323px;
+    margin-left: -11px;
+    padding-left: 10px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select[option] {
+    background: #fff;
+    height: 24px;
+    line-height: 24px;
+    color: #1D1D1D;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'BrandonGrotesque-Medium';
+    padding: 5px 10px;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select[option]:hover {
+    background-color: #fff !important;
+}
+
+option:hover {
+    background-color: #fff !important;
+}
+
+option[selected] {
+    background-color: #F5F6F8;
+}
+
+option:checked { background-color: #F5F6F8; }
+
+option {
+    filter: hue-rotate(90deg);
+}
+
+select:hover {
+    color: #444645;
+    background: #ddd;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select {
+    position: relative;
+    overflow: hidden;
+    width: 301px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: #fff;
+    border: 2px solid #D8D8D8;
+    height: 41px;
+    line-height: 41px;
+    padding: 2px 10px;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select:hover,
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select:focus,
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select:active,
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select:visited {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select::after {
+    position: absolute;
+    content: '\f004';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 17px;
+    color: #131312;
+    font-family: "polymed-3d-icons";
+    font-weight: 100;
+}
+
+/* CUSTOM SELECT END */
+
+.shop-header {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    color: #222222;
+    font-weight: 400;
+    font-family: 'BrandonGrotesque-Regular';
+}
+
+.special-order-notification {
+
 }

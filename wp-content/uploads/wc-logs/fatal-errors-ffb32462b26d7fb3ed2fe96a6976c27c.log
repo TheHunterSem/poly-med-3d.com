@@ -36,3 +36,65 @@
 
 2018-02-05T14:37:12+00:00 CRITICAL Call to a member function get_attributes() on null
 
+2018-02-28T14:28:46+00:00 CRITICAL Call to a member function get_price() on null
+
+2018-02-28T14:28:55+00:00 CRITICAL Call to a member function get_price() on null
+
+2018-02-28T14:29:23+00:00 CRITICAL Call to a member function get_price() on null
+
+2018-02-28T14:30:07+00:00 CRITICAL Call to a member function get_price() on null
+
+2018-02-28T14:30:25+00:00 CRITICAL Call to a member function get_price() on null
+
+2018-02-28T14:34:47+00:00 CRITICAL Call to undefined function get_price_html()
+
+2018-02-28T14:34:56+00:00 CRITICAL Call to undefined function get_price_html()
+
+2018-02-28T15:17:15+00:00 CRITICAL Uncaught exception 'Exception' with message 'No Equation given' in /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/resources/lib/eos/Parser.php:140
+Stack trace:
+#0 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/resources/lib/eos/Parser.php(363): jlawrence\eos\Parser->checkInfix(NULL)
+#1 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/awspricecalculator/Helper/CalculatorHelper.php(129): jlawrence\eos\Parser->solveIF('', Array)
+#2 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/awspricecalculator/Helper/ProductHelper.php(38): WSF\Helper\CalculatorHelper->calculate_price(1661, Array, true, '1', NULL, Array)
+#3 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/awspricecalculator.php(550): WSF\Helper\ProductHelper->productPage(1661)
+#4 [internal function]: AWSPriceCalculator->product_meta_end('')
+#5 /var/www/html/poly-med.local/wp-includes/class-wp-hook.php(286): call_user_func_array(Arra
+
+2018-02-28T15:17:15+00:00 CRITICAL Uncaught exception 'Exception' with message 'No Equation given' in /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/resources/lib/eos/Parser.php:140
+Stack trace:
+#0 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/resources/lib/eos/Parser.php(363): jlawrence\eos\Parser->checkInfix(NULL)
+#1 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/awspricecalculator/Helper/CalculatorHelper.php(129): jlawrence\eos\Parser->solveIF('', Array)
+#2 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/admin/awspricecalculator/Helper/ProductHelper.php(38): WSF\Helper\CalculatorHelper->calculate_price(1661, Array, true, '1', NULL, Array)
+#3 /var/www/html/poly-med.local/wp-content/plugins/woo-price-calculator/awspricecalculator.php(550): WSF\Helper\ProductHelper->productPage(1661)
+#4 [internal function]: AWSPriceCalculator->product_meta_end('')
+#5 /var/www/html/poly-med.local/wp-includes/class-wp-hook.php(286): call_user_func_array(Arra
+
+2018-02-28T15:40:14+00:00 CRITICAL Class 'wc_get_products' not found
+
+2018-02-28T15:40:29+00:00 CRITICAL Call to a member function have_posts() on array
+
+2018-02-28T15:41:09+00:00 CRITICAL Call to a member function have_posts() on array
+
+2018-03-01T07:43:39+00:00 CRITICAL Cannot redeclare woocommerce_variable_add_to_carts() (previously declared in /var/www/html/poly-med.local/wp-content/themes/polymed/functions.php:13)
+
+2018-03-01T07:43:46+00:00 CRITICAL Cannot redeclare woocommerce_variable_add_to_carts() (previously declared in /var/www/html/poly-med.local/wp-content/themes/polymed/Shop.php:69)
+
+2018-03-01T07:49:53+00:00 CRITICAL Cannot redeclare re_woo_product_variations_tab() (previously declared in /var/www/html/poly-med.local/wp-content/themes/polymed/functions.php:47)
+
+2018-03-01T14:58:02+00:00 CRITICAL Call to undefined method WC_Product_Variable::attribute()
+
+2018-03-01T14:59:01+00:00 CRITICAL Function name must be a string
+
+2018-03-01T14:59:32+00:00 CRITICAL Call to a member function slug() on null
+
+2018-03-01T14:59:41+00:00 CRITICAL Method name must be a string
+
+2018-03-01T15:02:15+00:00 CRITICAL Call to undefined function attribute_slug_to_title()
+
+2018-03-01T15:02:30+00:00 CRITICAL Call to undefined function attribute_slug_to_title()
+
+2018-03-01T15:02:40+00:00 CRITICAL Call to undefined function attribute_slug_to_title()
+
+2018-03-01T15:14:30+00:00 CRITICAL Using $this when not in object context
+
+2018-03-01T15:14:37+00:00 CRITICAL Using $this when not in object context
+

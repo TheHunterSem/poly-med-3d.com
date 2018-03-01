@@ -10,12 +10,16 @@
 
 <div class="centered-container">
 
-    <div class="printing-materials-goods-block">
+    <h1 class="shop-header">REQUEST FORM</h1>
+
+    <div class="printing-materials-goods-block" id="shop-items-block">
         <ul class="items-list">
             <?php
             $args = array(
                 'post_type' => 'product',
                 'posts_per_page' => 4,
+                'stock_status' => 'instock',
+                'type' => 'variable',
                 'meta_query' => array(
                     array(
                         'key' => '_stock_status',
@@ -31,39 +35,66 @@
 
                 global $product;
 
-                echo '<li>';
 
 
-                echo '<h3 class="header"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
+                ?>
 
-                // Get the short description START
-                echo '<p class="description">' . $product->post->post_excerpt . '</p>';
-                // Get the short description END
+                <li class="item-element">
 
-                echo '<div class="gallery-info-block">';
+                    <div class="checkbox-wrapper">
+                        <label>
+                            <input type="checkbox" class="checkbox-item">
+                            <span class="wpcf7-list-item-label"></span>
+                        </label>
+                    </div>
 
-                echo '<div class="images-block">';
+                    <div class="general-wrapper">
 
-                $image = wp_get_attachment_image_src(get_post_thumbnail_id($loop->post->ID), 'single-post-thumbnail');
+                        <div class="gallery-info-block">
 
-                echo '<img src="' . $image[0] . '" data-id=" ' . $loop->post->ID . ' ">';
-                echo '</div>';
-                // Get the first two images END
+                            <div class="images-block">
+
+                                <?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($loop->post->ID), 'single-post-thumbnail'); ?>
+
+                                <img src="<?php echo $image[0]; ?>" data-id=" <?php echo $loop->post->ID; ?> ">
+                            </div>
+                            <!-- Get the first two images END -->
+
+                        </div>
+
+                        <div class="product-info-wrapper">
+
+                            <?php
+
+                            do_action( 'woocommerce_single_product_summary' );
+
+                            ?>
+
+                            <p class="special-order-notification">If you would like to place an order for a quantity not shown please
+                                <a href="#">Contact Us</a> for a special order.</p>
+
+                            <p><?php
 
 
-                echo '</div>';
 
-                echo '</li>';
+                                 ?></p>
 
-            endwhile;
+                        </div>
+
+                    </div>
+
+                </li>
+
+            <?php endwhile;
 
             wp_reset_query();
             ?>
         </ul>
+        <span style="cursor: pointer" id="testtest">Test submit</span>
     </div>
 
 
-    <section class="print-with-us" id="print-with-us">
+    <section class="print-with-us">
         <div class="wrapper">
             <h2 class="header-content-general">PURCHASE REQUEST FORM</h2>
             <p class="text">Please fill out the information below to request the items you have selected above for

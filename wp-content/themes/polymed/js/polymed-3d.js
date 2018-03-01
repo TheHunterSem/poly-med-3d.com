@@ -29,4 +29,49 @@ jQuery(document).ready(function ($) {
     });
 
 
+
+    $('#shop-items-block .items-list .item-element').each(function() {
+
+       $(this).find('select#pa_gramms').wrap('<div class="custom-select"></div>');
+
+    });
+
+
+
+    function AddProductInfoToInput() {
+
+        var products = [];
+
+        $('#shop-items-block .items-list .item-element').each(function() {
+
+            var ItemChecked = jQuery(this).find('input.checkbox-item:checked').closest(this);
+
+            if(jQuery(ItemChecked)) {
+
+                var nameValue = $(ItemChecked).find('.product_title').text();
+                var priceValue = $(ItemChecked).find('.woocommerce-variation-price .woocommerce-Price-amount').text();
+                var skuValue = $(ItemChecked).find('.sku_wrapper').text();
+                var quantityValue = $(ItemChecked).find('#pa_gramms').val();
+
+                console.log("name : " + nameValue + " , " , "price : " + priceValue + " , " , "sku : " + skuValue + " , " , "quantity : " + quantityValue);
+                /*var qty = 10;
+                var product_id = 1234566;
+                var product = array();
+                product['qty'] = qty;
+                product['name'] = 'fgdfgdfgdf';
+            //         ....
+
+                products[product_id] = product;*/
+            }
+
+        });
+
+
+    }
+
+    $('#testtest').on('click', function () {
+        AddProductInfoToInput();
+    });
+
+
 });
