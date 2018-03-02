@@ -101,7 +101,7 @@ jQuery(document).ready(function ($) {
 
     });
 
-    $('a.qwerewq[href^="#"]').click(function(e){
+    $('a.contact_us_link_shop[href^="#"]').click(function(e){
         //Сохраняем значение атрибута href в переменной:
         e.preventDefault();
         e.stopPropagation();

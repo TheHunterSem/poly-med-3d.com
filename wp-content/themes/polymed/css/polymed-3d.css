@@ -1790,7 +1790,7 @@ div.wpcf7-validation-errors {
     -moz-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations td.label,
@@ -1986,4 +1986,8 @@ select:hover {
     display: block;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.contact_us_link_shop {
+    color: #9A00F2;
 }

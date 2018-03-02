@@ -93,7 +93,7 @@ the_post();
                             ?>
 
                             <p class="special-order-notification">If you would like to place an order for a quantity not shown please
-                                <a href="#contact_us_link" class="qwerewq">Contact Us</a> for a special order.</p>
+                                <a href="#contact_us_link" class="contact_us_link_shop">Contact Us</a> for a special order.</p>
 
                             <?php
                                 $item_details = get_field('item_details');
