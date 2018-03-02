@@ -17,7 +17,7 @@
             <?php
             $args = array(
                 'post_type' => 'product',
-                'posts_per_page' => 4,
+                'posts_per_page' => -1,
                 'stock_status' => 'instock',
                 'type' => 'variable',
                 'meta_query' => array(

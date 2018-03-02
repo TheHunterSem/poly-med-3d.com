@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
 
                 products['product_id'] = product;
 
-                console.log(product['name']+', '+product['price']+', '+product['sku']+', '+product['quantity']);
+                //console.log(product['name']+', '+product['price']+', '+product['sku']+', '+product['quantity']);
 
                 $('#wpcf7-f1681-o1').find('#hidden-text-area').val(
                     $('#wpcf7-f1681-o1').find('#hidden-text-area').val() +"\n"+
