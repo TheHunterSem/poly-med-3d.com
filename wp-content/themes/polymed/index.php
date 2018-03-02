@@ -112,8 +112,6 @@ the_post();
 
 </div>
 
-<?php echo do_shortcode('[contact-form-7 id="1679" title="Untitled"]'); ?>
-
 <!--YouTube custom play button, and image preview-->
 <script type="text/javascript">
     "use strict";
