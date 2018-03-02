@@ -87,4 +87,30 @@ jQuery(document).ready(function ($) {
     });
 
 
+    /*CONTACT US INFO POPUP START*/
+
+    var contactPopup = $('div#contact-info');
+
+    var contactUsBtn = $('#menu-contact_us_menu li a').attr('id','contact_us_link');
+
+
+    $(contactUsBtn).on('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(contactPopup).stop().fadeToggle(200);
+
+    });
+
+    $('a.qwerewq[href^="#"]').click(function(e){
+        //Сохраняем значение атрибута href в переменной:
+        e.preventDefault();
+        e.stopPropagation();
+        $(contactPopup).stop().fadeToggle(200);
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 300);
+        return false;
+    });
+
+    /*CONTACT US INFO POPUP END*/
+
 });

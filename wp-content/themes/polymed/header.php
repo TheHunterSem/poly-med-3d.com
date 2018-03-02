@@ -48,7 +48,27 @@
         </a>
 
         <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-            <?php wp_nav_menu('menu=main_navigation'); ?>
+
+            <div class="menu-main_navigation-wrapper">
+                <?php wp_nav_menu('menu=main_navigation'); ?>
+            </div>
+
+            <div class="menu-contact_us_menu-wrapper">
+
+                <?php wp_nav_menu('contact_us_menu'); ?>
+
+                <div id="contact-info" class="contact">
+                    <div class="phone">+1.864.328.0008</div>
+                    <div class="text">
+                        51 Technology Drive<br>
+                        Anderson, SC 29625<br>
+                        <a target="_blank" href="https://www.google.com/maps/dir//51+Technology+Dr,+Anderson,+SC+29625/@34.586052,-82.8157758,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x885866c9c7f218b9:0x539f6402bf3ba80a!2m2!1d-82.81363!2d34.586052">Get Directions</a><br>
+                        <a href="mailto:sales@poly-med.com">sales@poly-med.com</a>
+                    </div>
+                </div>
+
+            </div>
+
         </nav>
 
     </div>

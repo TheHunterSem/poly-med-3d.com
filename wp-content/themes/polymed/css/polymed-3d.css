@@ -218,28 +218,33 @@ header .header-main {
     margin-right: 30px;
 }
 
-#menu-main_navigation,
-#primary-navigation {
+#primary-navigation .menu-main_navigation-container,
+#primary-navigation .menu-main_navigation-wrapper,
+#primary-navigation .menu-contact_us_menu-container,
+#primary-navigation .menu-contact_us_menu-wrapper {
+    display: inline-block;
+}
+
+#primary-navigation ul {
     display: inline-block;
     padding: 0;
 }
 
-#menu-main_navigation > li.menu-item {
+#primary-navigation li {
     display: inline-block;
     list-style: none;
     margin: 0 15px;
 }
 
-#menu-main_navigation > li.menu-item:first-child {
+#primary-navigation li.menu-item:first-child {
     margin-left: 0;
 }
 
-#menu-main_navigation > li.menu-item:last-child {
+#primary-navigation li.menu-item:last-child {
     margin-right: 0;
 }
 
-#menu-main_navigation > li.menu-item a,
-.cart-link {
+#primary-navigation li.menu-item a {
     color: #292929;
     font-family: 'BrandonGrotesque-Medium';
     font-size: 14px;
@@ -249,17 +254,46 @@ header .header-main {
     text-decoration: none;
 }
 
-.cart-link {
+#primary-navigation .menu-contact_us_menu-wrapper {
+    margin-left: 30px;
     position: relative;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: 10px;
 }
 
-.cart-link .icon-shopping-cart {
-    font-size: 24px;
-    vertical-align: middle;
+#primary-navigation .menu-contact_us_menu-wrapper .contact {
+    display: none;
+    background: #fff;
+    color: #1D1D1D;
+    padding: 10px;
+    font-family: BrandonGrotesqueReg, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 250px;
+    position: absolute;
+    top: 57px;
+    text-transform: none;
+    left: 50%;
+    transform: translateX(-40%);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    z-index: 20;
+    box-sizing: border-box;
 }
+
+#primary-navigation .menu-contact_us_menu-wrapper .contact .text {
+    line-height: 1.75;
+    font-family: 'BrandonGrotesque-Regular';
+    font-weight: 400;
+}
+
+#primary-navigation .menu-contact_us_menu-wrapper .contact .phone {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#primary-navigation .menu-contact_us_menu-wrapper .contact a {
+    color: #1d1d1d;
+    text-decoration: underline;
+}
+
 
 footer {
     display: block;
