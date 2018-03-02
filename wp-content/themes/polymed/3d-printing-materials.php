@@ -113,6 +113,8 @@
                 $args = array(
                     'post_type' => 'product',
                     'posts_per_page' => 4,
+                    'stock_status' => 'instock',
+                    'type' => 'variable',
                     'meta_query' => array(
                         array(
                             'key' => '_stock_status',
