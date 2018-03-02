@@ -6,7 +6,11 @@
 
 
 <!-- Include Header -->
-<?php get_header(); ?>
+<?php get_header();
+
+the_post();
+
+?>
 
 <div class="main-top-banner-wrapper printing-materials">
     <div class="img-block">
@@ -132,12 +136,9 @@
 
                     echo '<li>';
 
-
                     echo '<h3 class="header"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
 
-                    // Get the short description START
-                    echo '<p class="description">' . $product->post->post_excerpt . '</p>';
-                    // Get the short description END
+                    echo '<p class="description">' . the_content() . ' </p>';
 
                     echo '<div class="gallery-info-block">';
                     // Get the first two images START

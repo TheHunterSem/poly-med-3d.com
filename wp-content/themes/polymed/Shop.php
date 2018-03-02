@@ -6,7 +6,11 @@
 
 
 <!-- Include Header -->
-<?php get_header(); ?>
+<?php get_header();
+
+the_post();
+
+?>
 
 <div class="centered-container">
 
@@ -35,11 +39,20 @@
 
                 global $product;
 
-
+                $licenseDurations = get_the_terms( $product->id, 'Item details');
 
                 ?>
 
                 <li class="item-element">
+
+                    <?php
+
+                    foreach ( $licenseDurations as $licenseDuration )
+                    {
+                        echo $licenseDuration->name;
+                    }
+
+                    ?>
 
                     <div class="checkbox-wrapper">
                         <label>
@@ -73,6 +86,10 @@
                             <p class="special-order-notification">If you would like to place an order for a quantity not shown please
                                 <a href="#contact_us_link" class="qwerewq">Contact Us</a> for a special order.</p>
 
+                            <div class="item-details">
+                                <span class="header">ITEM DETAILS</span>
+                                <p class="description"> <?php echo $product->post->post_excerpt ?> </p>
+                            </div>
 
                         </div>
 

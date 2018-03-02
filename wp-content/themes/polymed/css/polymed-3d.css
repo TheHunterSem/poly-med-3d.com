@@ -1879,3 +1879,19 @@ select:hover {
 .purchase-request-form-block .input-block.full-width {
     max-width: 100%;
 }
+
+.printing-materials-goods-block .item-element .product-info-wrapper .item-details {
+    display: block;
+    width: 100%;
+}
+
+.printing-materials-goods-block .item-element .product-info-wrapper .item-details .header {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #222222;
+    font-family: 'BrandonGrotesque-Medium';
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
