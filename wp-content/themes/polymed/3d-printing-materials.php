@@ -195,7 +195,7 @@
                         </div>
 
                         <div class="bottom-buttons-block">
-                            <?php echo do_action('woocommerce_after_shop_loop_item'); ?>
+                            <?php do_action('woocommerce_after_shop_loop_item'); ?>
                             <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print
                                 with us</a>
                         </div>
