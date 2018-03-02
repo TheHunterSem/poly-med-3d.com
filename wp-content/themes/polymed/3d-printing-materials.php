@@ -113,8 +113,15 @@
                 $args = array(
                     'post_type' => 'product',
                     'posts_per_page' => -1,
-                    'stock_status' => 'instock',
+                    'stock_status' => 'publish',
                     'category' => 'dual_products',
+                    'tax_query' => array(
+                        array(
+                            'taxonomy' => 'product_cat',
+                            'field' => 'slug',
+                            'terms' => 'dual_products'
+                        )
+                    ),
                     'meta_query' => array(
                         array(
                             'key' => '_stock_status',

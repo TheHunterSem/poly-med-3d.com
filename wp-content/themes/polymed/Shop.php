@@ -22,9 +22,16 @@ the_post();
             $args = array(
                 'post_type' => 'product',
                 'posts_per_page' => -1,
-                'stock_status' => 'instock',
+                'stock_status' => 'publish',
                 'type' => 'variable',
                 'category' => 'simple_product',
+                'tax_query' => array(
+                    array(
+                        'taxonomy' => 'product_cat',
+                        'field' => 'slug',
+                        'terms' => 'simple_product'
+                    )
+                ),
                 'meta_query' => array(
                     array(
                         'key' => '_stock_status',
@@ -35,6 +42,7 @@ the_post();
 
             $loop = new WP_Query($args);
 
+            $categories = get_terms( 'product_cat', $args );
 
             while ($loop->have_posts()) : $loop->the_post();
 
