@@ -113,4 +113,9 @@ jQuery(document).ready(function ($) {
 
     /*CONTACT US INFO POPUP END*/
 
+    jQuery('select#pa_gramms').each(function(){
+        $(this).children().eq(1).text('').val('');
+    });
+
+
 });
