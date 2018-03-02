@@ -24,14 +24,14 @@ the_post();
                 'posts_per_page' => -1,
                 'stock_status' => 'publish',
                 'type' => 'variable',
-                'category' => 'simple_product',
+                /*'category' => 'simple_product',
                 'tax_query' => array(
                     array(
                         'taxonomy' => 'product_cat',
                         'field' => 'slug',
                         'terms' => 'simple_product'
                     )
-                ),
+                ),*/
                 'meta_query' => array(
                     array(
                         'key' => '_stock_status',

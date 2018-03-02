@@ -1867,6 +1867,10 @@ option {
     filter: hue-rotate(90deg);
 }
 
+.printing-materials-goods-block .item-element .product-info-wrapper .custom-select select option:first-child {
+    display: none !important;
+}
+
 select:hover {
     color: #444645;
     background: #ddd;
