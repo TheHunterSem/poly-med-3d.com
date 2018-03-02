@@ -31,17 +31,49 @@
         <h2 class="header-content-general">MAKING FILAMENTS FOR 3D PRINTING</h2>
         <div class="filaments-wrapper-items">
 
-            <div class="first-item-block">
+            <div class="first-item-block item-block-general">
                 <div class="img-block">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/filaments-1.png" alt="">
                 </div>
                 <div class="content-block">
                     <div class="content-item">
                         <span class="circle">1</span>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias
-                            eaque facere facilis
-                            iure, labore minus modi molestias, quae repellendus sed, suscipit voluptatem voluptates.
-                            Debitis, in, temporibus?
+                        <p class="text">
+                            Poly-Med uses medical grade, fully traceable raw materials in the production of all polymer
+                            and filament products. All raw materials are tested for purity and quality specifications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-item-block item-block-general">
+                <div class="img-block">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/filaments-2.png" alt="">
+                </div>
+                <div class="content-block two">
+                    <div class="content-item">
+                        <span class="circle">2</span>
+                        <p class="text">
+                            To ensure the best possible filament, materials are extensively dried to minimize moisture
+                            in the polymer which can lead to degradation during extrusion.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-block three">
+                    <div class="content-item">
+                        <span class="circle">3</span>
+                        <p class="text">
+                            Our custom built equipment provides ideal processing to minimize material degradation and
+                            provide the best properties for 3D printing filaments.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-block four">
+                    <div class="content-item">
+                        <span class="circle">4</span>
+                        <p class="text">
+                            We perform 100% inspection of 3D filaments in real-time to ensure size and concentricity are
+                            met.
                         </p>
                     </div>
                 </div>

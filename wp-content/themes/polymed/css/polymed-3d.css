@@ -678,21 +678,21 @@ footer .social-block .socials-icons ul li a {
     padding: 40px 20px;
 }
 
-.filaments-wrapper-items .first-item-block {
+.filaments-wrapper-items .item-block-general {
     text-align: center;
     width: 100%;
 }
 
-.filaments-wrapper-items .first-item-block .img-block,
-.filaments-wrapper-items .first-item-block .content-block,
-.filaments-wrapper-items .first-item-block .content-block .content-item,
-.filaments-wrapper-items .first-item-block .content-block .content-item .circle,
-.filaments-wrapper-items .first-item-block .content-block .content-item .text {
+.filaments-wrapper-items .item-block-general .img-block,
+.filaments-wrapper-items .item-block-general .content-block,
+.filaments-wrapper-items .item-block-general .content-block .content-item,
+.filaments-wrapper-items .item-block-general .content-block .content-item .circle,
+.filaments-wrapper-items .item-block-general .content-block .content-item .text {
     display: inline-block;
     vertical-align: top;
 }
 
-.filaments-wrapper-items .first-item-block .content-block .content-item .circle {
+.filaments-wrapper-items .item-block-general .content-block .content-item .circle {
     position: relative;
     margin: 10px 16px 0 15px;
     color: #363838;
@@ -713,7 +713,7 @@ footer .social-block .socials-icons ul li a {
     box-sizing: border-box;
 }
 
-.filaments-wrapper-items .first-item-block .content-block .content-item .circle::after {
+.filaments-wrapper-items .item-block-general .content-block .content-item .circle::after {
     position: absolute;
     content: '';
     height: 1px;
@@ -724,7 +724,7 @@ footer .social-block .socials-icons ul li a {
     display: block;
 }
 
-.filaments-wrapper-items .first-item-block .content-block .content-item .text {
+.filaments-wrapper-items .item-block-general .content-block .content-item .text {
     max-width: 292px;
     width: 100%;
     font-size: 16px;
@@ -740,6 +740,45 @@ footer .social-block .socials-icons ul li a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.filaments-wrapper-items .second-item-block {
+    position: relative;
+    margin-top: -135px;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.two {
+    position: absolute;
+    top: 174px;
+    left: 140px;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.two .text {
+    max-width: 288px;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.three {
+    float: left;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.four {
+    float: left;
+    margin-left: 80px;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.three .text,
+.filaments-wrapper-items .second-item-block .content-block.four .text {
+    max-width: 264px;
+}
+
+.filaments-wrapper-items .second-item-block .content-block.three .circle,
+.filaments-wrapper-items .second-item-block .content-block.four .circle {
+    margin-left: 0;
 }
 
 .filaments-wrapper-items .third-item-block {
