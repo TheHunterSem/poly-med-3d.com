@@ -90,10 +90,14 @@ the_post();
                                 $item_details = get_field('item_details');
                             ?>
 
+                            <?php
+                            if($item_details) {
+                            ?>
                             <div class="item-details">
                                 <span class="header">ITEM DETAILS</span>
                                 <p class="description"> <?php echo $item_details; ?> </p>
                             </div>
+                            <?php } ?>
 
                         </div>
 
