@@ -112,9 +112,9 @@
                 <?php
                 $args = array(
                     'post_type' => 'product',
-                    'posts_per_page' => 4,
+                    'posts_per_page' => -1,
                     'stock_status' => 'instock',
-                    'type' => 'variable',
+                    'category' => 'dual_products',
                     'meta_query' => array(
                         array(
                             'key' => '_stock_status',

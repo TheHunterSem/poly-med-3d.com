@@ -24,6 +24,7 @@ the_post();
                 'posts_per_page' => -1,
                 'stock_status' => 'instock',
                 'type' => 'variable',
+                'category' => 'simple_product',
                 'meta_query' => array(
                     array(
                         'key' => '_stock_status',
