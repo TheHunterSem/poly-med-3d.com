@@ -6,11 +6,7 @@
 
 
 <!-- Include Header -->
-<?php get_header();
-
-the_post();
-
-?>
+<?php get_header(); ?>
 
 <div class="main-top-banner-wrapper printing-materials">
     <div class="img-block">
@@ -132,46 +128,73 @@ the_post();
 
                 while ($loop->have_posts()) : $loop->the_post();
 
-                    global $product;
+                    global $product; ?>
 
-                    echo '<li>';
-
-                    echo '<h3 class="header"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
-
-                    echo '<p class="description">' . the_content() . ' </p>';
-
-                    echo '<div class="gallery-info-block">';
-                    // Get the first two images START
-                    $attachment_ids = $product->get_gallery_attachment_ids();
-                    $i = 0;
-                    echo '<div class="images-block">';
-                    foreach ($attachment_ids as $attachment_id) {
-                        if ($i < 2) {
-                            echo '<a href="' . get_permalink() . '"><img src="' . $image_link = wp_get_attachment_url($attachment_id) . '"></a>';
-                            $i++;
-                        }
-                    }
-                    echo '</div>';
-                    // Get the first two images END
+                    <li>
 
 
-                    // Get the attributes START
+                        <h3 class="header"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+                        </h3>
 
-                    echo $product->list_attributes();
+                        <p class="description"><?php echo $product->post->post_excerpt; ?></p>
 
-                    // Get the attributes END
+                        <div class="gallery-info-block">
 
-                    echo '<a class="more-info-about" href="' . get_permalink() . '">Request more info about ' . get_the_title() . '</a>';
+                            <?php
+                            $attachment_ids = $product->get_gallery_attachment_ids();
+                            $i = 0; ?>
 
-                    echo '</div>';
+                            <div class="images-block">
 
-                    echo '<div class="bottom-buttons-block">';
-                    echo do_action('woocommerce_after_shop_loop_item');
-                    echo '<a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print with us</a>';
-                    echo '</div>';
+                                <?php
+                                foreach ($attachment_ids as $attachment_id) {
+                                    if ($i < 2) { ?>
+                                        <a href="<?php echo get_permalink(); ?>"><img
+                                                    src="<?php echo $image_link = wp_get_attachment_url($attachment_id); ?>"></a>
+                                        <?php $i++;
+                                    }
+                                }
+                                ?>
+                            </div>
 
-                    echo '</li>';
+                            <?php
 
+                            $keys_repeater = get_field('keys');
+
+                            if ($keys_repeater) {
+
+                                ?>
+
+                                <div class="shop_attributes">
+                                    <ul>
+
+                                        <?php foreach ($keys_repeater as $keys) { ?>
+
+                                            <li>
+                                                <span><?php echo $keys['name']; ?> :</span>
+                                                <span class="product_weight"><?php echo $keys['value']; ?></span>
+                                            </li>
+
+                                        <?php } ?>
+
+                                    </ul>
+                                </div>
+
+                            <?php } ?>
+
+                            <a class="more-info-about" href="<?php echo get_permalink(); ?>">Request more info
+                                about <?php echo get_the_title(); ?></a>
+
+                        </div>
+
+                        <div class="bottom-buttons-block">
+                            <?php echo do_action('woocommerce_after_shop_loop_item'); ?>
+                            <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print
+                                with us</a>
+                        </div>
+
+                    </li>
+                <?php
                 endwhile;
 
                 wp_reset_query();

@@ -1479,9 +1479,12 @@ footer .social-block .socials-icons ul li a {
 
 .printing-materials-goods-block .items-list .images-block a img {
     max-width: 100%;
-    display: inline-block;
+    max-height: 100%;
+    display: block;
     margin: 0 auto;
     vertical-align: middle;
+    width: auto;
+    height: auto;
 }
 
 .printing-materials-goods-block .items-list .shop_attributes {
