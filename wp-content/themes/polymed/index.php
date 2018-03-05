@@ -34,7 +34,7 @@ the_post();
 <div class="centered-container">
 
     <div class="content">
-        <h2 class="header-content-general">POLY-MED 3D SOLUTIONS & SERVICES</h2>
+        <h2 class="header-content-general fix-pd-bt">POLY-MED 3D SOLUTIONS & SERVICES</h2>
         <p class="text-content-general">We produce medical-grade, high quality materials for your 3D printing
             operations. If you need a particular material to enable your 3D printing application, we can customize our
             materials to fit your need. Poly-Med 3D is the leading partner for the supply and additive manufacturing of

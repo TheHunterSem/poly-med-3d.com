@@ -525,6 +525,11 @@ footer .social-block .socials-icons ul li a {
     box-sizing: border-box;
     vertical-align: top;
     margin: 0.8%;
+    text-decoration: none;
+}
+
+.what_we_provide-wrapper .item:hover {
+    background: #A847FF;
 }
 
 .what_we_provide-wrapper .item:first-child {
@@ -1623,7 +1628,7 @@ footer .social-block .socials-icons ul li a {
     text-align: right;
 }
 
-.printing-materials-goods-block .items-list .bottom-buttons-block .add_to_cart_button {
+.printing-materials-goods-block .items-list .bottom-buttons-block a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'BrandonGrotesque-Medium';
@@ -1640,6 +1645,10 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     text-align: center;
     margin-right: 20px;
+}
+
+.printing-materials-goods-block .items-list .bottom-buttons-block a:last-child {
+    margin-right: 0;
 }
 
 .printing-materials-goods-block .items-list .bottom-buttons-block .product_type_simple:not(.add_to_cart_button) {
@@ -1991,4 +2000,8 @@ select:hover {
 .contact_us_link_shop,
 .checkbox-wrapper a {
     color: #9A00F2;
+}
+
+.fix-pd-bt {
+    padding-bottom: 20px;
 }
