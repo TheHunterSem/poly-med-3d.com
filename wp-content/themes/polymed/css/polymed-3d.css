@@ -745,6 +745,10 @@ footer .social-block .socials-icons ul li a {
     vertical-align: top;
 }
 
+.filaments-wrapper-items .item-block-general .content-block {
+    position: relative;
+}
+
 .filaments-wrapper-items .item-block-general .content-block .content-item .circle {
     position: relative;
     margin: 10px 16px 0 15px;

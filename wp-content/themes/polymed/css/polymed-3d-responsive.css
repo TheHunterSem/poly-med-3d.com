@@ -83,7 +83,24 @@
 
 @media screen and (max-width: 856px) {
 
+    .filaments-wrapper-items .second-item-block {
+        margin-top: 0;
+    }
 
+    .filaments-wrapper-items .second-item-block .content-block.two {
+        position: absolute;
+        bottom: 50%;
+        left: 17%;
+    }
+
+    .filaments-wrapper-items .second-item-block .content-block.four {
+        float: right;
+        margin-left: 0;
+    }
+
+    .filaments-wrapper-items .second-item-block img {
+        max-width: 100%;
+    }
 
 }
 
@@ -234,6 +251,50 @@
 
     .main-top-banner-wrapper .img-block img {
         max-height: 480px;
+    }
+
+}
+
+@media screen and (max-width: 687px) {
+
+    .filaments-wrapper-items .second-item-block .content-block.three .content-item,
+    .filaments-wrapper-items .second-item-block .content-block.four .content-item {
+        padding-top: 46px;
+    }
+
+    .filaments-wrapper-items .second-item-block .content-block.three .circle,
+    .filaments-wrapper-items .second-item-block .content-block.four .circle {
+        position: absolute;
+        top: 0;
+        margin: 0;
+    }
+
+    .filaments-wrapper-items .second-item-block .content-block.three .circle::after,
+    .filaments-wrapper-items .second-item-block .content-block.four .circle::after {
+        height: 16px;
+        width: 1px;
+        left: 15px;
+        bottom: -17px;
+        top: initial;
+    }
+
+    .filaments-wrapper-items .second-item-block .content-block.two {
+        position: absolute;
+        top: 15%;
+        left: 17%;
+        bottom: initial;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    .filaments-wrapper-items .second-item-block .content-block.three .text, .filaments-wrapper-items .second-item-block .content-block.four .text {
+        max-width: 150px;
+    }
+
+    .filaments-wrapper-items .second-item-block .content-block.two {
+        top: 8%;
     }
 
 }
