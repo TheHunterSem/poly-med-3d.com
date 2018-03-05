@@ -221,7 +221,7 @@
 
                             <?php } ?>
 
-                            <a class="more-info-about" href="<?php echo get_permalink(); ?>">Request more info
+                            <a class="more-info-about" href="/shop/">Request more info
                                 about <?php echo get_the_title(); ?></a>
 
                         </div>
