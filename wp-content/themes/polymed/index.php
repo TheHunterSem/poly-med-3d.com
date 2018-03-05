@@ -81,8 +81,7 @@ the_post();
         <div class="video-block">
 
             <div class="youtube" id="5-VdPeoVCAI"
-                 data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720"
-                 style="width:640px;height:360px;">
+                 data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720">
             </div>
         </div>
     </section>

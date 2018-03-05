@@ -197,6 +197,7 @@ header {
 }
 
 header .header-main {
+    position: relative;
     height: 80px;
     width: 100%;
     display: -webkit-box;
@@ -216,6 +217,12 @@ header .header-main {
 .main-logo {
     display: inline-block;
     margin-right: 30px;
+}
+
+.main-logo img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
 }
 
 #primary-navigation .menu-main_navigation-container,
@@ -245,13 +252,17 @@ header .header-main {
 }
 
 #primary-navigation li.menu-item a {
-    color: #292929;
     font-family: 'BrandonGrotesque-Medium';
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     text-transform: uppercase;
     text-decoration: none;
+    color: #777777;
+}
+
+#primary-navigation li.menu-item a:hover {
+    color: #292929;
 }
 
 #primary-navigation .menu-contact_us_menu-wrapper {
@@ -418,6 +429,22 @@ footer .social-block .socials-icons ul li a {
     margin: 0 auto;
 }
 
+.main-top-banner-wrapper .img-block {
+    position: relative;
+}
+
+.main-top-banner-wrapper .img-block::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #363838;
+    opacity: 0.15;
+    z-index: 1;
+}
+
 .main-top-banner-wrapper .img-block img {
     display: block;
     max-width: 100%;
@@ -430,6 +457,7 @@ footer .social-block .socials-icons ul li a {
     top: 40px;
     max-width: 600px;
     left: 40px;
+    z-index: 5;
 }
 
 .main-top-banner-wrapper.printing-materials .content-block {
@@ -518,7 +546,7 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     width: 33.3333%;
     max-width: 301px;
-    padding-top: 39.5px;
+    padding: 39px 10px 10px 10px;
     min-height: 320px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -596,13 +624,32 @@ footer .social-block .socials-icons ul li a {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    max-width: 640px;
+    max-height: 360px;
+    /*height: -webkit-fill-available;*/
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow:hidden;
+}
+
+.vertically-integrated .video-block iframe,
+.vertically-integrated .video-block object,
+.vertically-integrated .video-block embed,
+.vertically-integrated .video-block .youtube {
+    /*height: -webkit-fill-available;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .printing-services {
     display: inline-block;
-    width: -webkit-calc(100% + 40px );
-    width: -moz-calc(100% + 40px );
-    width: calc(100% + 40px );
+    width: 100%;
     margin-top: 40px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -619,7 +666,7 @@ footer .social-block .socials-icons ul li a {
     -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-left: -20px;
+    /*margin-left: -20px;*/
 }
 
 .printing-services .left-side,
@@ -667,15 +714,15 @@ footer .social-block .socials-icons ul li a {
 }
 
 .printing-services .right-side .see-services-link {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-
+    /*position: absolute; */
+    /*bottom: 40px; */
+    /*left: 50%; */
+    /*-webkit-transform: translateX(-50%); */
+    /*-moz-transform: translateX(-50%);*/
+    /*-ms-transform: translateX(-50%);*/
+    /*-o-transform: translateX(-50%);*/
+    /* transform: translateX(-50%); */
+    margin-top: 20px;
 }
 
 .filaments-wrapper-items {
@@ -2004,4 +2051,38 @@ select:hover {
 
 .fix-pd-bt {
     padding-bottom: 20px;
+}
+
+.mobile-menu-btn {
+    display: none;
+    position: relative;
+    float: right;
+    padding: 9px 0 9px 10px;
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.mobile-menu-btn .line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #363838;
+}
+
+.mobile-menu-btn .btn-wrapper .line + .line {
+    margin-top: 7px;
+}
+
+#primary-navigation li.menu-item a#contact_us_link {
+    color: #84649f;
+}
+
+#primary-navigation li.menu-item a#contact_us_link:hover {
+    color: #5d4671;
+    text-decoration: underline;
 }

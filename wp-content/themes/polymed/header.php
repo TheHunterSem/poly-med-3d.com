@@ -20,7 +20,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
@@ -28,11 +28,22 @@
     <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
     <link rel='stylesheet' id='woocommerce-general-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce.css' type='text/css' media='all' />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/polymed-3d.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/polymed-3d-responsive.css">
     <!--[if lt IE 9]-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
     <!--[endif]-->
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/polymed-3d.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114948742-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114948742-1');
+    </script>
     <?php wp_head(); ?>
 </head>
 
@@ -70,6 +81,14 @@
             </div>
 
         </nav>
+
+        <span id="mobile-menu-btn" class="mobile-menu-btn">
+            <span class="btn-wrapper">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </span>
+        </span>
 
     </div>
 

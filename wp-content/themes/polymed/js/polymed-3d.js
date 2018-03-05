@@ -72,7 +72,10 @@ jQuery(document).ready(function ($) {
 
                 $('#wpcf7-f1681-o1').find('#hidden-text-area').val(
                     $('#wpcf7-f1681-o1').find('#hidden-text-area').val() +"\n"+
-                    "NAME : "+product['name']+', ' +"PRICE : "+product['price']+', ' +"SKU : "+product['sku']+', ' +"QUANTITY : "+product['quantity']
+                    "NAME : "+product['name']+', '
+                    +"PRICE : "+product['price']+', '
+                    +"SKU : "+product['sku']+', '
+                    +"QUANTITY : "+product['quantity']
                 );
 
             }
@@ -93,13 +96,15 @@ jQuery(document).ready(function ($) {
 
     var contactUsBtn = $('#menu-contact_us_menu li a').attr('id','contact_us_link');
 
+    if($(window).width() > 991 ) {
 
-    $(contactUsBtn).on('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        $(contactPopup).stop().fadeToggle(200);
+        $(contactUsBtn).on('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $(contactPopup).stop().fadeToggle(200);
+        });
 
-    });
+    }
 
     $('a.contact_us_link_shop[href^="#"]').click(function(e){
         //Сохраняем значение атрибута href в переменной:
@@ -113,9 +118,13 @@ jQuery(document).ready(function ($) {
 
     /*CONTACT US INFO POPUP END*/
 
-    jQuery('select#pa_gramms').each(function(){
+    $('select#pa_gramms').each(function(){
         $(this).children().eq(1).text('');
     });
 
+
+    $('#mobile-menu-btn').on('click', function () {
+       $('#primary-navigation').stop().slideToggle(300);
+    });
 
 });
