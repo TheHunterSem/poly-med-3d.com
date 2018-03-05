@@ -1988,6 +1988,7 @@ select:hover {
     margin-bottom: 10px;
 }
 
-.contact_us_link_shop {
+.contact_us_link_shop,
+.checkbox-wrapper a {
     color: #9A00F2;
 }

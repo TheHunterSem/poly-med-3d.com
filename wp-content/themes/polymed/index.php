@@ -70,7 +70,7 @@ the_post();
                     <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-3.png" alt="">
                 </div>
                 <h4 class="header">CONTRACT MANUFACTURING</h4>
-                <p class="description">ADDITIVE MANUFACTURING USING 3D PRINTING</p>
+                <p class="description">MANUFACTURING USING 3D PRINTING</p>
             </div>
 
         </div>
@@ -106,7 +106,7 @@ the_post();
                     <a href="mailto:sales@poly-med3d.com">Contact us</a> at sales@poly-med3d.com to learn more!
                 </p>
             </div>
-            <a href="#" class="see-services-link purple-btn">SEE SERVICES</a>
+            <a href="/3d-printing-services/" class="see-services-link purple-btn" target="_blank">SEE SERVICES</a>
         </div>
     </section>
 

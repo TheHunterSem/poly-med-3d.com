@@ -227,8 +227,8 @@
                         </div>
 
                         <div class="bottom-buttons-block">
-                            <a href="<?php echo get_permalink(); ?>" class="purple-btn">SELECT OPTIONS</a>
-                            <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print
+                            <a href="/shop/" target="_blank" class="purple-btn">PURCHASE MATERIALS</a>
+                            <a href="/3d-printing-services#print-with-us" class="purple-btn">print
                                 with us</a>
                         </div>
 
