@@ -1271,6 +1271,8 @@ footer .social-block .socials-icons ul li a {
 
 .print-with-us .wpcf7-form .buttons-wrapper {
     text-align: right;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .print-with-us .wpcf7-form .buttons-wrapper.center {
@@ -2045,6 +2047,11 @@ select:hover {
 
 .form-general .input-block.full-width {
     max-width: 100%;
+}
+
+.form-general .input-block:last-child,
+.form-general .input-block.full-width:last-child {
+    margin-bottom: 0;
 }
 
 .printing-materials-goods-block .item-element .product-info-wrapper .item-details {
