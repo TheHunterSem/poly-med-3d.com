@@ -1603,7 +1603,7 @@ footer .social-block .socials-icons ul li a {
     vertical-align: top;
 }
 
-.printing-materials-goods-block .items-list .images-block a {
+.printing-materials-goods-block .items-list .images-block span {
     display: inline-block;
     vertical-align: top;
     background-color: #0A0B0F;
@@ -1613,11 +1613,11 @@ footer .social-block .socials-icons ul li a {
     margin-right: 20px;
 }
 
-.printing-materials-goods-block .items-list .images-block a:last-child {
+.printing-materials-goods-block .items-list .images-block span:last-child {
     margin-right: 0;
 }
 
-.printing-materials-goods-block .items-list .images-block a img {
+.printing-materials-goods-block .items-list .images-block span img {
     max-width: 100%;
     max-height: 100%;
     display: block;

@@ -188,8 +188,9 @@
                                 <?php
                                 foreach ($attachment_ids as $attachment_id) {
                                     if ($i < 2) { ?>
-                                        <a href="<?php echo get_permalink(); ?>"><img
-                                                    src="<?php echo $image_link = wp_get_attachment_url($attachment_id); ?>"></a>
+                                        <span>
+                                            <img src="<?php echo $image_link = wp_get_attachment_url($attachment_id); ?>">
+                                        </span>
                                         <?php $i++;
                                     }
                                 }

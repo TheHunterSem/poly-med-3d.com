@@ -493,12 +493,12 @@
         width: 100%;
     }
 
-    .printing-materials-goods-block .items-list .images-block a {
+    .printing-materials-goods-block .items-list .images-block span {
         margin: 0 auto 20px auto;
         display: block;
     }
 
-    .printing-materials-goods-block .items-list .images-block a:last-child {
+    .printing-materials-goods-block .items-list .images-block span:last-child {
         margin: 0 auto;
     }
 
