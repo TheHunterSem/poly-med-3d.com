@@ -749,6 +749,10 @@ footer .social-block .socials-icons ul li a {
     position: relative;
 }
 
+.filaments-wrapper-items .second-item-block img {
+    max-width: 100%;
+}
+
 .filaments-wrapper-items .item-block-general .content-block .content-item .circle {
     position: relative;
     margin: 10px 16px 0 15px;
