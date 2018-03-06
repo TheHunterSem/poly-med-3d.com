@@ -105,6 +105,8 @@ body {
 .purple-btn-block {
     text-align: center;
     width: 100%;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .purple-btn {
@@ -885,6 +887,10 @@ footer .social-block .socials-icons ul li a {
     font-weight: 500;
     line-height: 18px;
     margin-top: 11px;
+}
+
+.printing-materials-goods-wrapper {
+    padding-bottom: 40px;
 }
 
 .printing-materials-goods-wrapper .text-content-general {
@@ -1691,7 +1697,7 @@ footer .social-block .socials-icons ul li a {
     font-family: 'BrandonGrotesque-Medium';
     font-weight: 500;
     text-transform: uppercase;
-    background-color: #822BCD;
+    background-color: #9A00F2;
     font-size: 18px;
     line-height: 18px;
     padding: 16px 20px;

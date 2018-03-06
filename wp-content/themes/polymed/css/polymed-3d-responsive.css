@@ -81,6 +81,37 @@
 
 }
 
+@media screen and (max-width: 945px) {
+
+    .printing-materials-goods-block .items-list .gallery-info-block .more-info-about {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .filaments-wrapper-items .third-item-block {
+        padding: 0 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+
+
+}
+
 @media screen and (max-width: 856px) {
 
     .filaments-wrapper-items .second-item-block {
@@ -184,6 +215,42 @@
 
 }
 
+@media screen and (max-width: 780px) {
+
+    .printing-materials-goods-block .items-list .shop_attributes {
+        max-width: 100%;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul {
+        padding: 0;
+        margin-top: 23px;
+        max-height: initial;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul li {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul li:nth-child(even) {
+        margin-bottom: 10px;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul li span,
+    .printing-materials-goods-block .items-list .shop_attributes ul li span p {
+        display: inline-block;
+    }
+
+    .printing-materials-goods-block .items-list .bottom-buttons-block {
+        display: inline-block;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     .main-top-banner-wrapper .img-block img {
@@ -283,6 +350,21 @@
 
 }
 
+@media screen and (max-width: 660px) {
+
+    .key-wrapper .key-info-block ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .key-wrapper .key-info-block {
+        padding: 21px 10px 0 10px;
+    }
+
+}
+
 @media screen and (max-width: 590px) {
 
     .filaments-wrapper-items .second-item-block .content-block.three .text, .filaments-wrapper-items .second-item-block .content-block.four .text {
@@ -352,7 +434,72 @@
     }
 
     .filaments-wrapper-items {
-        padding: 40px 7px;
+        padding: 10px 7px 40px 7px;
+    }
+
+    .filaments-wrapper-items .third-item-block .item {
+        max-width: 100%;
+    }
+
+    .filaments-wrapper-items .third-item-block .item .text {
+        font-size: 12px;
+        line-height: 15px;
+        font-family: 'BrandonGrotesque-Medium';
+        font-weight: 500;
+    }
+
+    .printing-materials-goods-block .items-list .header {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .printing-materials-goods-block .items-list .header a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .printing-materials-goods-block .items-list .description {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 60px;
+    }
+
+    .printing-materials-goods-block .items-list .shop_attributes ul li span,
+    .printing-materials-goods-block .items-list .shop_attributes ul li span p,
+    .printing-materials-goods-block .items-list .gallery-info-block .more-info-about {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .printing-materials-goods-block .items-list .bottom-buttons-block {
+        text-align: center;
+    }
+
+    .printing-materials-goods-block .items-list .bottom-buttons-block a {
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .printing-materials-goods-block .items-list .bottom-buttons-block a:last-child {
+        margin-bottom: 0;
+    }
+
+    .printing-materials-goods-block .items-list .images-block {
+        width: 100%;
+    }
+
+    .printing-materials-goods-block .items-list .images-block a {
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .printing-materials-goods-block .items-list .images-block a:last-child {
+        margin: 0 auto;
     }
 
 }

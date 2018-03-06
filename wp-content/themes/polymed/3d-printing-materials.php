@@ -107,6 +107,14 @@
                 </div>
             </div>
 
+            <p class="text-content-general">Poly-Med provides a variety of filaments for 3D-printing applications. These
+                fibers are the only biocompatible and bioresorbable 3D-printing filaments supported by an ISO
+                13485-certified quality system.</p>
+
+            <p class="text-content-general">Poly-Med filaments are synthesized, extruded, inspected, packaged and
+                shipped using fully traceable processes.
+            </p>
+
             <div class="purple-btn-block">
                 <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
             </div>
@@ -146,14 +154,6 @@
                     'post_type' => 'product',
                     'posts_per_page' => -1,
                     'stock_status' => 'publish',
-                    'category' => 'dual_products',
-                    'tax_query' => array(
-                        array(
-                            'taxonomy' => 'product_cat',
-                            'field' => 'slug',
-                            'terms' => 'dual_products'
-                        )
-                    ),
                     'meta_query' => array(
                         array(
                             'key' => '_stock_status',
