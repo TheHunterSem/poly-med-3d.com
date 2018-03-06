@@ -453,6 +453,7 @@ footer .social-block .socials-icons ul li a {
     max-width: 100%;
     width: 100%;
     max-height: 600px;
+    height: 100vh;
 }
 
 .main-top-banner-wrapper .content-block {
