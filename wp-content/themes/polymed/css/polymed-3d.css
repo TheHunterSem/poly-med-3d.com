@@ -1227,7 +1227,9 @@ footer .social-block .socials-icons ul li a {
 
 .print-with-us {
     background-color: #fff;
-    padding-bottom: 40px;
+    padding: 0 10px 40px 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .print-with-us .wpcf7-form input[type="text"],
@@ -1597,7 +1599,7 @@ footer .social-block .socials-icons ul li a {
     text-decoration: none;
 }
 
-.printing-materials-goods-block .items-list .description {
+.printing-materials-goods-block .description {
     color: #292929;
     font-size: 18px;
     line-height: 20px;
@@ -1794,6 +1796,10 @@ div.wpcf7-validation-errors {
     margin: 0 0 10px 0;
 }
 
+.printing-materials-goods-block .item-element .product_title.mobile {
+    display: none;
+}
+
 .printing-materials-goods-block .item-element .general-wrapper {
     display: inline-block;
     width: 100%;
@@ -1808,6 +1814,10 @@ div.wpcf7-validation-errors {
     float: left;
     vertical-align: top;
     text-align: center;
+}
+
+.printing-materials-goods-block .item-element .gallery-info-block img {
+    max-width: 100%;
 }
 
 .printing-materials-goods-block .item-element .product-info-wrapper {

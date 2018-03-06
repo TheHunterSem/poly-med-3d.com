@@ -390,6 +390,53 @@
         margin-bottom: 20px;
     }
 
+    .printing-materials-goods-block .item-element .product_title {
+        display: none;
+    }
+
+    .printing-materials-goods-block .item-element .product_title.mobile {
+        display: block;
+        max-width: 80%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .printing-materials-goods-block .item-element .gallery-info-block {
+        max-width: 100%;
+    }
+
+    .shop-header {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .printing-materials-goods-block .item-element .product-info-wrapper {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .printing-materials-goods-block .item-element .woocommerce-variation-price .price {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .printing-materials-goods-block .item-element .product-info-wrapper > form > table.variations td.label label {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .variations_form .item-details .description {
+        font-size: 16px !important;
+        line-height: 19px;
+        margin-bottom: 0 !important;
+    }
+
+    .printing-materials-goods-block .item-element .product-info-wrapper .custom-select {
+        width: 270px;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -593,6 +640,11 @@
         width: 100%;
     }
 
+    .checkbox-wrapper .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
 }
 
 @media screen and (max-width: 590px) {
@@ -689,7 +741,7 @@
         line-height: 24px;
     }
 
-    .printing-materials-goods-block .items-list .description {
+    .printing-materials-goods-block .items-list li .description.materials {
         margin: 0;
         padding: 0;
         display: inline-block;

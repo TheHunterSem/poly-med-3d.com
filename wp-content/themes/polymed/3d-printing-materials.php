@@ -175,7 +175,7 @@
                         <h3 class="header"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
                         </h3>
 
-                        <p class="description"><?php echo $product->post->post_excerpt; ?></p>
+                        <p class="description materials"><?php echo $product->post->post_excerpt; ?></p>
 
                         <div class="gallery-info-block">
 

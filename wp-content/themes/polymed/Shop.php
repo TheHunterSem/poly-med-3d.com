@@ -72,6 +72,8 @@ the_post();
 
                     <div class="general-wrapper">
 
+                        <h2 class="product_title entry-title mobile"><?php echo get_the_title(); ?></h2>
+
                         <div class="gallery-info-block">
 
                             <div class="images-block">
