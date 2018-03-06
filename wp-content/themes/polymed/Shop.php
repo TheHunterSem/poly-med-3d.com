@@ -123,7 +123,7 @@ the_post();
     </div>
 
 
-    <section class="print-with-us purchase-request-form-block">
+    <section class="print-with-us purchase-request-form-block form-general">
         <div class="wrapper">
             <h2 class="header-content-general">PURCHASE REQUEST FORM</h2>
             <p class="text">Please fill out the information below to request the items you have selected above for
