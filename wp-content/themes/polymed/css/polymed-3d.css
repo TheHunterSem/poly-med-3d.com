@@ -507,6 +507,10 @@ footer .social-block .socials-icons ul li a {
     text-align: center;
 }
 
+.header-content-general.shop {
+    padding-bottom: 0;
+}
+
 .text-content-general {
     display: block;
     margin: 0 auto;
@@ -2053,6 +2057,13 @@ select:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-bottom: 20px;
+}
+
+.form-general .input-block label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-family: 'BrandonGrotesque-Medium';
 }
 
 .form-general .input-block.full-width {
