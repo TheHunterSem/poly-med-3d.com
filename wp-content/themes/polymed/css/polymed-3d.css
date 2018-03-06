@@ -1218,9 +1218,11 @@ footer .social-block .socials-icons ul li a {
 
 .quality-controlled-printing .quality-controlled-printing-text {
     margin: 40px 0;
-    font-size: 18px;
-    line-height: 22px;
     color: #292929;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'BrandonGrotesque-Medium';
 }
 
 .print-with-us {

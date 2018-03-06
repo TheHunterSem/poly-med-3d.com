@@ -35,24 +35,24 @@
 
             <div class="top-elements">
                 <div class="item-block first">
+                    <p class="title">MEDICAL GRADE POLYMERS</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-1.png" alt="">
-                    <p class="title">MEDICAL GRADE<br> POLYMERS</p>
                 </div>
                 <div class="item-block second">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-2.png" alt="">
                     <p class="title">3D PRINTING MATERIALS</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-2.png" alt="">
                 </div>
                 <div class="item-block third">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-3.png" alt="">
                     <p class="title">DIGITIZATION OF CONTENT</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-3.png" alt="">
                 </div>
                 <div class="item-block fourth">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4.png" alt="">
                     <p class="title">3D PRINTING</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4.png" alt="">
                 </div>
                 <div class="item-block last">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-5.png" alt="">
                     <p class="title">MEDICAL DEVICE</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-5.png" alt="">
                 </div>
             </div>
 
@@ -65,24 +65,24 @@
 
             <div class="bottom-elements">
                 <div class="item-block first">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6.png" alt="">
                     <p class="title">EXPLORATION</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6.png" alt="">
                 </div>
                 <div class="item-block second">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7.png" alt="">
                     <p class="title">EXPLORATION</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7.png" alt="">
                 </div>
                 <div class="item-block third">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8.png" alt="">
                     <p class="title">DESIGN</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8.png" alt="">
                 </div>
                 <div class="item-block fourth">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9.png" alt="">
                     <p class="title">DEVELOPMENT</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9.png" alt="">
                 </div>
                 <div class="item-block last">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-10.png" alt="">
                     <p class="title">MANUFACTURING</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-10.png" alt="">
                 </div>
             </div>
 
