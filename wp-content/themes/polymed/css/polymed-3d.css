@@ -2033,7 +2033,7 @@ select:hover {
     align-items: flex-start;
 }
 
-.purchase-request-form-block .input-block {
+.input-block {
     display: inline-block;
     width: 100%;
     max-width: 364px;
@@ -2043,7 +2043,7 @@ select:hover {
     margin-bottom: 20px;
 }
 
-.purchase-request-form-block .input-block.full-width {
+.input-block.full-width {
     max-width: 100%;
 }
 

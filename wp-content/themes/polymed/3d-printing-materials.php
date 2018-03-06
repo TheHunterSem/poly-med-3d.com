@@ -118,7 +118,7 @@
         <h2 class="header-content-general">3D PRINTING MATERIALS</h2>
         <p class="text-content-general">We currently offer the polymers below and also can provide custom material
             solutions for your 3D
-            printing applications. <a href="mailto:sales@poly-med3d.com">Contact Us</a> sales@poly-med3d.com
+            printing applications. Contact Us <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
         </p>
 
         <div class="key-wrapper">

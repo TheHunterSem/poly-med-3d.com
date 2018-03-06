@@ -5,6 +5,10 @@
         padding: 0 11px;
     }
 
+    header {
+        padding: 0 10px;
+    }
+
     header .header-main {
         height: 50px;
     }
@@ -680,6 +684,11 @@
 
     .printing-materials-goods-block .items-list .images-block span:last-child {
         margin: 0 auto;
+    }
+
+    .print-with-us p {
+        font-size: 14px;
+        line-height: 20px;
     }
 
 }
