@@ -316,7 +316,7 @@ header .header-main {
 
 
 footer {
-    display: inline-block;
+    display: block;
     background-color: #2F3131;
     max-width: 984px;
     width: 100%;
