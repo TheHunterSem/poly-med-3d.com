@@ -2105,3 +2105,8 @@ select:hover {
     color: #5d4671;
     text-decoration: underline;
 }
+
+.main-top-banner-wrapper .purple-btn-block,
+.main-top-banner-wrapper .purple-btn-block .purple-btn {
+    margin: 0;
+}
