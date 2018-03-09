@@ -1,3 +1,35 @@
+@media screen and (max-width: 1024px) {
+
+    .centered-container,
+    #container,
+    footer {
+        max-width: 984px;
+    }
+
+    header,
+    .main-top-banner-wrapper {
+        max-width: 1024px;
+    }
+
+    .main-top-banner-wrapper .img-block img {
+        max-height: 600px;
+    }
+
+    .main-top-banner-wrapper {
+        padding: 0 20px;
+    }
+
+    .text-content-general {
+        max-width: 944px;
+    }
+
+    .vertically-integrated .video-block {
+        max-width: 640px;
+        max-height: 360px;
+    }
+
+}
+
 @media screen and (max-width: 991px){
 
     .centered-container,

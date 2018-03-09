@@ -14,7 +14,7 @@ the_post();
 
 <div class="main-top-banner-wrapper">
     <div class="img-block">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/HeroShot-1.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/HeroShot-1.png" alt="">
     </div>
     <div class="content-block">
         <h1 class="header">POLY-MED 3D <br> TECHNOLOGIES</h1>
@@ -87,10 +87,14 @@ the_post();
 
             ?>
 
-            <div class="video-block">
+            <div class="video-block-wrapper">
 
-                <div class="youtube" id="<?php echo $video_id; ?>"
-                     data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720">
+                <div class="video-block">
+
+                    <div class="youtube" id="<?php echo $video_id; ?>"
+                         data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720">
+                    </div>
+
                 </div>
 
             </div>
