@@ -1,3 +1,12 @@
+@media screen and (max-width: 1260px) {
+
+    .printing-materials-goods-block .items-list .images-block span {
+        width: 180px;
+        height: 120px;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
 
     .centered-container,
@@ -26,11 +35,6 @@
     .vertically-integrated .video-block {
         max-width: 640px;
         max-height: 360px;
-    }
-
-    .printing-materials-goods-block .items-list .images-block span {
-        width: 180px;
-        height: 120px;
     }
 
 }
