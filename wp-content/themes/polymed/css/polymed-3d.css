@@ -1312,7 +1312,7 @@ footer .social-block .socials-icons ul li a {
 .print-with-us .wpcf7-form input[type="email"],
 .print-with-us .wpcf7-form textarea {
     height: 40px;
-    max-width: 750px;
+    max-width: 100%;
     width: 100%;
     border: 1px solid #474747;
     background-color: #FFFFFF;
@@ -1343,7 +1343,7 @@ footer .social-block .socials-icons ul li a {
 .print-with-us .wrapper {
     display: block;
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 944px;
     width: 100%;
 }
 
@@ -2130,7 +2130,7 @@ select:hover {
 .form-general .input-block {
     display: inline-block;
     width: 100%;
-    max-width: 364px;
+    max-width: 462px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;

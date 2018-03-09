@@ -258,6 +258,14 @@
         max-height: 360px;
     }
 
+    .print-with-us .wrapper {
+        max-width: 750px;
+    }
+
+    .form-general .input-block {
+        max-width: 364px;
+    }
+
 }
 
 @media screen and (max-width: 991px){
