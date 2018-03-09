@@ -1899,7 +1899,10 @@ div.wpcf7-validation-errors {
 }
 
 .printing-materials-goods-block .item-element .gallery-info-block img {
-    max-width: 100%;
+    max-width: 340px;
+    width: 100%;
+    max-height: 320px;
+    height: auto;
 }
 
 .printing-materials-goods-block .item-element .product-info-wrapper {

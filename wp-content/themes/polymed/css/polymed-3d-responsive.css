@@ -530,6 +530,7 @@
 
     .design-service-process-wrapper {
         padding: 40px 45px;
+        box-sizing: border-box;
     }
 
     .design-service-process-wrapper .top-elements .item-block .title,
