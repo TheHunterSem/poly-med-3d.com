@@ -1688,8 +1688,8 @@ footer .social-block .socials-icons ul li a {
     display: inline-block;
     vertical-align: top;
     background-color: #0A0B0F;
-    width: 180px;
-    height: 120px;
+    width: 300px;
+    height: 200px;
     text-align: center;
     margin-right: 20px;
 }
@@ -1739,6 +1739,12 @@ footer .social-block .socials-icons ul li a {
 .printing-materials-goods-block .items-list .shop_attributes ul li {
     margin-bottom: 20px;
     max-width: 140px;
+    margin-left: 66px;
+}
+
+.printing-materials-goods-block .items-list .shop_attributes ul li:nth-child(1),
+.printing-materials-goods-block .items-list .shop_attributes ul li:nth-child(2) {
+    margin-left: 0;
 }
 
 .printing-materials-goods-block .items-list .shop_attributes ul li:nth-child(even),

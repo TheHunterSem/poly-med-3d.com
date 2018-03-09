@@ -28,6 +28,11 @@
         max-height: 360px;
     }
 
+    .printing-materials-goods-block .items-list .images-block span {
+        width: 180px;
+        height: 120px;
+    }
+
 }
 
 @media screen and (max-width: 991px){
