@@ -33,57 +33,61 @@
         <h2 class="header-content-general">QUALITY CONTROLLED 3D PRINTING</h2>
         <div class="design-service-process-wrapper">
 
-            <div class="top-elements">
-                <div class="item-block first">
-                    <p class="title">MEDICAL GRADE POLYMERS</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-1.png" alt="">
-                </div>
-                <div class="item-block second">
-                    <p class="title">3D PRINTING MATERIALS</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-2.png" alt="">
-                </div>
-                <div class="item-block third">
-                    <p class="title">DIGITIZATION OF CONTENT</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-3.png" alt="">
-                </div>
-                <div class="item-block fourth">
-                    <p class="title">3D PRINTING</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4.png" alt="">
-                </div>
-                <div class="item-block last">
-                    <p class="title">MEDICAL DEVICE</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-5.png" alt="">
-                </div>
-            </div>
+            <div class="design-service-process-elements">
 
-            <div class="middle-elements">
-                <div class="item-block">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="">
-                    <h4 class="title-header">DESIGN SERVICE PROCESS</h4>
+                <div class="top-elements">
+                    <div class="item-block first">
+                        <p class="title">MEDICAL GRADE POLYMERS</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-1-big.png" alt="">
+                    </div>
+                    <div class="item-block second">
+                        <p class="title">3D PRINTING MATERIALS</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-2-big.png" alt="">
+                    </div>
+                    <div class="item-block third">
+                        <p class="title">DIGITIZATION OF CONTENT</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-3-big.png" alt="">
+                    </div>
+                    <div class="item-block fourth">
+                        <p class="title">3D PRINTING</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-4-big.png" alt="">
+                    </div>
+                    <div class="item-block last">
+                        <p class="title">MEDICAL DEVICE</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-5-big.png" alt="">
+                    </div>
                 </div>
-            </div>
 
-            <div class="bottom-elements">
-                <div class="item-block first">
-                    <p class="title">EXPLORATION</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6.png" alt="">
+                <div class="middle-elements">
+                    <div class="item-block">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="">
+                        <h4 class="title-header">DESIGN SERVICE PROCESS</h4>
+                    </div>
                 </div>
-                <div class="item-block second">
-                    <p class="title">EXPLORATION</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7.png" alt="">
+
+                <div class="bottom-elements">
+                    <div class="item-block first">
+                        <p class="title">EXPLORATION</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6-big.png" alt="">
+                    </div>
+                    <div class="item-block second">
+                        <p class="title">EXPLORATION</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7-big.png" alt="">
+                    </div>
+                    <div class="item-block third">
+                        <p class="title">DESIGN</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8-big.png" alt="">
+                    </div>
+                    <div class="item-block fourth">
+                        <p class="title">DEVELOPMENT</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9-big.png" alt="">
+                    </div>
+                    <div class="item-block last">
+                        <p class="title">MANUFACTURING</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-10-big.png" alt="">
+                    </div>
                 </div>
-                <div class="item-block third">
-                    <p class="title">DESIGN</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-8.png" alt="">
-                </div>
-                <div class="item-block fourth">
-                    <p class="title">DEVELOPMENT</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-9.png" alt="">
-                </div>
-                <div class="item-block last">
-                    <p class="title">MANUFACTURING</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-10.png" alt="">
-                </div>
+
             </div>
 
         </div>

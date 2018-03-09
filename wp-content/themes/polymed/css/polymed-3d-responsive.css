@@ -1,3 +1,224 @@
+@media screen and (max-width: 1350px) {
+
+    .design-service-process-elements {
+        max-width: 944px;
+    }
+
+    .design-service-process-wrapper .middle-elements .item-block .title-header {
+        top: -webkit-calc(50% + 104px);
+        top: -moz-calc(50% + 104px);
+        top: calc(50% + 104px);
+    }
+
+    .design-service-process-wrapper .middle-elements {
+        height: 500px;
+        width: 500px;
+    }
+
+    .design-service-process-wrapper .middle-elements .item-block {
+        height: 500px;
+        width: 500px;
+    }
+
+    .design-service-process-wrapper .middle-elements .item-block img {
+        max-width: 320px;
+    }
+
+    .design-service-process-wrapper .top-elements,
+    .design-service-process-wrapper .bottom-elements {
+        height: 443px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block,
+    .design-service-process-wrapper .bottom-elements .item-block {
+        height: 170px;
+        width: 170px;
+    }
+
+    .design-service-process-wrapper .bottom-elements {
+        height: 400px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.second {
+        position: absolute;
+        left: 130px;
+        top: 76px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.fourth {
+        position: absolute;
+        right: 130px;
+        top: 76px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.second {
+        position: absolute;
+        left: 140px;
+        bottom: 66px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.fourth {
+        position: absolute;
+        right: 140px;
+        bottom: 66px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.first,
+    .design-service-process-wrapper .top-elements .item-block.last {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.first,
+    .design-service-process-wrapper .bottom-elements .item-block.last {
+        position: absolute;
+        top: 0;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.first {
+        left: 0;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.first::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background-image: url('../images/arrow-top-first.png');
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.first {
+        left: 4px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.last {
+        right: 0;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.last {
+        right: 4px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block img,
+    .design-service-process-wrapper .bottom-elements .item-block img {
+        z-index: 5;
+        overflow: hidden;
+        position: relative;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block::after,
+    .design-service-process-wrapper .bottom-elements .item-block::after {
+        position: absolute;
+        content: '';
+        background-position: center center;
+        width: 66px;
+        height: 66px;
+        z-index: 1;
+        background-repeat: no-repeat;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.first::after {
+        background-image: url(../images/arrow-top-first.png);
+        top: -15px;
+        right: 0;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.second::after {
+        background-image: url(../images/arrow-top-second.png);
+        top: 8px;
+        right: -17px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.third::after {
+        background-image: url(../images/arrow-top-third.png);
+        top: 73px;
+        right: -32px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.fourth::after {
+        background-image: url(../images/arrow-top-fourth.png);
+        top: 115px;
+        right: -3px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.first::after {
+        background-image: url(../images/arrow-bottom-first.png);
+        top: 115px;
+        right: 6px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.second::after {
+        background-image: url(../images/arrow-bottom-first.png);
+        top: 90px;
+        right: -18px;
+        -webkit-transform: rotate(-25deg);
+        -moz-transform: rotate(-25deg);
+        -ms-transform: rotate(-25deg);
+        -o-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.third::after {
+        background-image: url(../images/arrow-bottom-third.png);
+        top: 38px;
+        right: -33px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.fourth::after {
+        background-image: url(../images/arrow-bottom-third.png);
+        top: -11px;
+        right: -6px;
+        -webkit-transform: rotate(-36deg);
+        -moz-transform: rotate(-36deg);
+        -ms-transform: rotate(-36deg);
+        -o-transform: rotate(-36deg);
+        transform: rotate(-36deg);
+    }
+
+    .design-service-process-wrapper .top-elements .item-block .title,
+    .design-service-process-wrapper .bottom-elements .item-block .title {
+        bottom: -25px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.first .title {
+        top: -42px;
+        left: -35px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.second .title,
+    .design-service-process-wrapper .top-elements .item-block.third .title,
+    .design-service-process-wrapper .top-elements .item-block.fourth .title {
+        top: -25px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.third .title {
+        width: 200px;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block.last .title {
+        top: -25px;
+        right: -40px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.first .title {
+        left: -37px;
+    }
+
+    .design-service-process-wrapper .bottom-elements .item-block.last .title {
+        right: -37px;
+    }
+
+}
+
 @media screen and (max-width: 1260px) {
 
     .printing-materials-goods-block .items-list .images-block span {
