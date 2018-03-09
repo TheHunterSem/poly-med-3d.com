@@ -78,12 +78,25 @@ the_post();
 
     <section class="vertically-integrated">
         <h2 class="header-content-general">VERTICALLY INTERGRATED SOLUTIONS</h2>
-        <div class="video-block">
 
-            <div class="youtube" id="5-VdPeoVCAI"
-                 data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720">
+        <?php
+
+        $video_id = get_field('video_id');
+
+        if ($video_id) {
+
+            ?>
+
+            <div class="video-block">
+
+                <div class="youtube" id="<?php echo $video_id; ?>"
+                     data-params="modestbranding=1&showinfo=0&controls=0&vq=hd720">
+                </div>
+
             </div>
-        </div>
+
+        <?php } ?>
+
     </section>
 
     <section class="printing-services">
