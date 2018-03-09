@@ -96,7 +96,7 @@
                 <div class="item">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-3.png" alt="">
                     <p class="text">As all of our bioresorbable polymers degrade by hydrolytic degradation, minimizing
-                        water content is of the utmost importance for enhancing 3DP filament shelf life and maintaining
+                        water content is of the utmost importance for enhancing 3D filament shelf life and maintaining
                         functionality. All products are thoroughly dried to less than 1000 ppm moisture and hermetically
                         packaged in foil.</p>
                 </div>
@@ -222,15 +222,13 @@
 
                             <?php } ?>
 
-                            <a class="more-info-about" href="/shop/" target="_blank">Request more info
-                                about <?php echo get_the_title(); ?></a>
+                            <a class="more-info-about" href="/shop/">Request more info about <?php echo get_the_title(); ?></a>
 
                         </div>
 
                         <div class="bottom-buttons-block">
-                            <a href="/shop/" target="_blank" class="purple-btn">PURCHASE MATERIALS</a>
-                            <a href="/3d-printing-services#print-with-us" target="_blank" class="purple-btn">print
-                                with us</a>
+                            <a href="/shop/" class="purple-btn">PURCHASE MATERIALS</a>
+                            <a href="/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
                         </div>
 
                     </li>
