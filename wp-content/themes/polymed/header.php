@@ -29,9 +29,6 @@
     <link rel='stylesheet' id='woocommerce-general-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce.css' type='text/css' media='all' />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/polymed-3d.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/polymed-3d-responsive.css">
-    <!--[if lt IE 9]-->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-    <!--[endif]-->
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/polymed-3d.js"></script>
 
