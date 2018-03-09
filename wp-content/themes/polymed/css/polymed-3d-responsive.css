@@ -616,6 +616,10 @@
         max-height: 480px;
     }
 
+    .filaments-wrapper-items .second-item-block .content-block.four {
+        margin-left: 80px;
+    }
+
 }
 
 @media screen and (max-width: 687px) {
@@ -752,6 +756,10 @@
     }
 
     .filaments-wrapper-items .third-item-block .item {
+        width: 100%;
+    }
+
+    .filaments-wrapper-items .third-item-block .item .content-block {
         max-width: 100%;
     }
 

@@ -712,8 +712,6 @@ footer .social-block .socials-icons ul li a {
 
 .printing-services {
     display: inline-block;
-    width: 100%;
-    margin-top: 40px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -729,6 +727,10 @@ footer .social-block .socials-icons ul li a {
     -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    width: -webkit-calc(100% + 40px);
+    width: -moz-calc(100% + 40px);
+    width: calc(100% + 40px);
+    margin: 40px 0 0 -20px;
 }
 
 .printing-services .left-side,
@@ -882,8 +884,10 @@ footer .social-block .socials-icons ul li a {
 .filaments-wrapper-items .second-item-block .content-block.two {
     position: absolute;
     /*top: 174px;*/
-    bottom: 200px;
-    left: 140px;
+    /*bottom: 200px;
+    left: 140px;*/
+    top: 35%;
+    left: 19%;
 }
 
 .filaments-wrapper-items .second-item-block .content-block.two .text {
@@ -896,7 +900,7 @@ footer .social-block .socials-icons ul li a {
 
 .filaments-wrapper-items .second-item-block .content-block.four {
     float: left;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .filaments-wrapper-items .second-item-block .content-block.three .text,
@@ -933,10 +937,16 @@ footer .social-block .socials-icons ul li a {
 }
 
 .filaments-wrapper-items .third-item-block .item {
-    max-width: 364px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin-bottom: 40px;
+}
+
+.filaments-wrapper-items .third-item-block .item .content-block {
+    max-width: 364px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .filaments-wrapper-items .third-item-block .item img {
