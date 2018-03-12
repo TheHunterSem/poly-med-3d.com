@@ -1705,6 +1705,7 @@ footer .social-block .socials-icons ul li a {
 .printing-materials-goods-block .items-list .images-block {
     display: inline-block;
     vertical-align: top;
+    width: 100%;
 }
 
 .printing-materials-goods-block .items-list .images-block span {
