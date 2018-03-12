@@ -1650,9 +1650,13 @@ footer .social-block .socials-icons ul li a {
     height: 27px;
     width: 27px;
     text-align: center;
-    line-height: 29px;
+    line-height: 27px;
     display: inline-block;
     color: #201D1D;
+}
+
+.key-wrapper .key-block .plus-btn i::before {
+    line-height: 27px;
 }
 
 .key-wrapper .key-block .plus-btn.active {

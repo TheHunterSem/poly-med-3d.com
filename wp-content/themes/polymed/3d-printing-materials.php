@@ -190,8 +190,7 @@
                     <li>
 
 
-                        <h3 class="header"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
-                        </h3>
+                        <h3 class="header"><?php echo get_the_title(); ?></h3>
 
                         <p class="description materials"><?php echo $product->post->post_excerpt; ?></p>
 
