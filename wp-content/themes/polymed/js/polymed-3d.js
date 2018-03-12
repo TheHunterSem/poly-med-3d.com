@@ -1,19 +1,5 @@
 jQuery(document).ready(function ($) {
 
- /*   $('a[href^="#"]').click(function(){
-        var target = $(this).attr('href');
-        $('html, body').animate({scrollTop: $(target).offset().top}, 800);
-        return false;
-    });
-
-    if (window.location.hash) {
-        scroll(0, 0);
-        // smooth scroll to the anchor id
-        $('html, body').animate({
-            scrollTop: $(window.location.hash).offset().top + 'px'
-        }, 1500, 'swing');
-    }*/
-
     var plusBtn = $('.key-wrapper .key-block .plus-btn');
     var infoBlock = $(plusBtn).parent().parent().find('.key-info-block');
 
@@ -28,14 +14,11 @@ jQuery(document).ready(function ($) {
 
     });
 
-
-
     $('#shop-items-block .items-list .item-element').each(function() {
 
        $(this).find('select#pa_gramms').wrap('<div class="custom-select"></div>');
 
     });
-
 
 
     function AddProductInfoToInput() {
@@ -68,8 +51,6 @@ jQuery(document).ready(function ($) {
 
                 products['product_id'] = product;
 
-                //console.log(product['name']+', '+product['price']+', '+product['sku']+', '+product['quantity']);
-
                 $('#wpcf7-f1681-o1').find('#hidden-text-area').val(
                     $('#wpcf7-f1681-o1').find('#hidden-text-area').val() +"\n"+
                     "NAME : "+product['name']+', '
@@ -81,7 +62,6 @@ jQuery(document).ready(function ($) {
             }
 
         });
-
 
     }
 
@@ -125,6 +105,16 @@ jQuery(document).ready(function ($) {
 
     $('#mobile-menu-btn').on('click', function () {
        $('#primary-navigation').stop().slideToggle(300);
+    });
+
+    jQuery(document).on('click', 'a.linkedin-link', function(e) {
+        console.log('asdfasdf');
+        gtag('event', 'Linkedin click', { 'event_category': 'Linkedin_button', 'event_action': 'click' });
+    });
+
+    jQuery(document).on('click', 'a.twitter-link', function(e) {
+        console.log('asdfasdf');
+        gtag('event', 'Twitter click', { 'event_category': 'Twitter_button', 'event_action': 'click' });
     });
 
 });

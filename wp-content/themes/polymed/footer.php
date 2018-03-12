@@ -28,9 +28,9 @@
     <div class="social-block">
         <div class="socials-icons">
             <ul>
-                <li><a href="https://www.linkedin.com/company/poly-med-inc-/"><i
+                <li><a href="https://www.linkedin.com/company/poly-med-inc-/" class="linkedin-link"><i
                                 class="icon-linkedin"></i></a></li>
-                <li><a href="https://twitter.com/PolyMedInc"><i class="icon-twitter"></i></a></li>
+                <li><a href="https://twitter.com/PolyMedInc" class="twitter-link"><i class="icon-twitter"></i></a></li>
             </ul>
             <a href="http://poly-med.com/"><img
                         src="<?php echo get_template_directory_uri(); ?>/images/Poly-med-white-logo.png" alt=""></a>
