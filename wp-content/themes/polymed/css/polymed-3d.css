@@ -678,6 +678,8 @@ footer .social-block .socials-icons ul li a {
     background-color: #fff;
     padding: 28px;
     max-width: 1320px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -690,6 +692,8 @@ footer .social-block .socials-icons ul li a {
     max-width: 895px;
     max-height: 503px;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
     padding-bottom: 56.25%;
@@ -707,6 +711,9 @@ footer .social-block .socials-icons ul li a {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
 }
 
@@ -1221,6 +1228,10 @@ footer .social-block .socials-icons ul li a {
     background-image: url(../images/arrow-bottom-second-big.png);
     top: 120px;
     right: -32px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
 
@@ -1228,6 +1239,10 @@ footer .social-block .socials-icons ul li a {
     background-image: url(../images/arrow-bottom-third-big.png);
     top: 56px;
     right: -56px;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
     transform: rotate(-6deg);
 }
 
@@ -1305,6 +1320,8 @@ footer .social-block .socials-icons ul li a {
     background-color: #fff;
     padding: 0 10px 40px 10px;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -2190,6 +2207,8 @@ select:hover {
     margin-bottom: 11.5px;
     background-color: transparent;
     background-image: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
     margin-left: auto;
 }
@@ -2198,6 +2217,8 @@ select:hover {
     display: block;
     width: 24px;
     height: 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
     border-radius: 1px;
     background-color: #363838;
 }
