@@ -1714,9 +1714,9 @@ footer .social-block .socials-icons ul li a {
 .printing-materials-goods-block .items-list .images-block span {
     display: inline-block;
     vertical-align: top;
-    background-color: #0A0B0F;
-    width: 300px;
-    height: 200px;
+    /* background-color: #0A0B0F; */
+    width: 340px;
+    height: 320px;
     text-align: center;
     margin-right: 20px;
 }
@@ -1731,7 +1731,7 @@ footer .social-block .socials-icons ul li a {
     display: block;
     margin: 0 auto;
     vertical-align: middle;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
