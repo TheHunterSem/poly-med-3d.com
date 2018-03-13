@@ -21,6 +21,52 @@ jQuery(document).ready(function ($) {
     });
 
 
+    /*CONTACT US INFO POPUP START*/
+
+    var contactPopup = $('div#contact-info');
+
+    var contactUsBtn = $('#menu-contact_us_menu li a').attr('id','contact_us_link');
+
+    if($(window).width() > 991 ) {
+
+        $(contactUsBtn).on('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $(contactPopup).stop().fadeToggle(200);
+        });
+
+    }
+
+    $('a.contact_us_link_shop[href^="#"]').click(function(e){
+        //Сохраняем значение атрибута href в переменной:
+        e.preventDefault();
+        e.stopPropagation();
+        $(contactPopup).stop().fadeToggle(200);
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 300);
+        return false;
+    });
+
+    /*CONTACT US INFO POPUP END*/
+
+    $('select#pa_gramms').each(function(){
+        $(this).children().eq(1).text('');
+    });
+
+
+    $('#mobile-menu-btn').on('click', function () {
+       $('#primary-navigation').stop().slideToggle(300);
+    });
+
+    jQuery(document).on('click', 'a.linkedin-link', function() {
+        gtag('event', 'Linkedin click', { 'event_category': 'Linkedin_button', 'event_action': 'click' });
+    });
+
+    jQuery(document).on('click', 'a.twitter-link', function() {
+        gtag('event', 'Twitter click', { 'event_category': 'Twitter_button', 'event_action': 'click' });
+    });
+
+
     function AddProductInfoToInput() {
 
         var products = [];
@@ -67,54 +113,6 @@ jQuery(document).ready(function ($) {
 
     $('#shop-submit').on('click', function () {
         AddProductInfoToInput();
-    });
-
-
-    /*CONTACT US INFO POPUP START*/
-
-    var contactPopup = $('div#contact-info');
-
-    var contactUsBtn = $('#menu-contact_us_menu li a').attr('id','contact_us_link');
-
-    if($(window).width() > 991 ) {
-
-        $(contactUsBtn).on('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            $(contactPopup).stop().fadeToggle(200);
-        });
-
-    }
-
-    $('a.contact_us_link_shop[href^="#"]').click(function(e){
-        //Сохраняем значение атрибута href в переменной:
-        e.preventDefault();
-        e.stopPropagation();
-        $(contactPopup).stop().fadeToggle(200);
-        var target = $(this).attr('href');
-        $('html, body').animate({scrollTop: $(target).offset().top}, 300);
-        return false;
-    });
-
-    /*CONTACT US INFO POPUP END*/
-
-    $('select#pa_gramms').each(function(){
-        $(this).children().eq(1).text('');
-    });
-
-
-    $('#mobile-menu-btn').on('click', function () {
-       $('#primary-navigation').stop().slideToggle(300);
-    });
-
-    jQuery(document).on('click', 'a.linkedin-link', function(e) {
-        console.log('asdfasdf');
-        gtag('event', 'Linkedin click', { 'event_category': 'Linkedin_button', 'event_action': 'click' });
-    });
-
-    jQuery(document).on('click', 'a.twitter-link', function(e) {
-        console.log('asdfasdf');
-        gtag('event', 'Twitter click', { 'event_category': 'Twitter_button', 'event_action': 'click' });
     });
 
 });
