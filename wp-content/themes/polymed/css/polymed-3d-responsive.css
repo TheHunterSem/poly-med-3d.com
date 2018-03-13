@@ -517,12 +517,26 @@
     }
 
     .design-service-process-wrapper .middle-elements .item-block {
-        height: 220px;
-        width: 220px;
+        max-height: 220px;
+        max-width: 220px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .design-service-process-wrapper .top-elements .item-block img,
+    .design-service-process-wrapper .bottom-elements .item-block img {
+        max-width: 160px;
+        max-height: 160px;
     }
 
     .design-service-process-wrapper .middle-elements .item-block img {
         max-width: 140px;
+    }
+
+    .design-service-process-elements {
+        max-width: 100%;
+        width: 100%;
+        padding: 30px 10px;
     }
 
     .design-service-process-wrapper .middle-elements .item-block .title-header {
@@ -537,7 +551,7 @@
     }
 
     .design-service-process-wrapper {
-        padding: 40px 45px;
+        padding: 0 10px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
