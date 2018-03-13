@@ -70,7 +70,7 @@ jQuery(document).ready(function ($) {
     function AddProductInfoToInput() {
 
         var products = [];
-        $('#wpcf7-f1681-o1').find('#hidden-text-area').val('');
+        $('.page-template-Shop div.wpcf7').find('#hidden-text-area').val('');
 
         $('#shop-items-block .items-list .item-element').each(function() {
 
@@ -97,8 +97,8 @@ jQuery(document).ready(function ($) {
 
                 products['product_id'] = product;
 
-                $('#wpcf7-f1681-o1').find('#hidden-text-area').val(
-                    $('#wpcf7-f1681-o1').find('#hidden-text-area').val() +"\n"+
+                $('.page-template-Shop div.wpcf7').find('#hidden-text-area').val(
+                    $('.page-template-Shop div.wpcf7').find('#hidden-text-area').val() +"\n"+
                     "NAME : "+product['name']+', '
                     +"PRICE : "+product['price']+', '
                     +"SKU : "+product['sku']+', '
