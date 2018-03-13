@@ -17,8 +17,8 @@
         <h1 class="header">POLY-MED 3D <br> PRINTING SERVICES</h1>
         <p class="text">3D printing enables more efficient development of bioresorbable devices in the medical world.
             Our polymers are utilized in a wide range of medical device applications, and the addition of 3D printing
-            enables us to create a solution for any medical device problem. If you have a device in mind that’s
-            absorbable, we can help with our 3D Printing Services.
+            enables us to create a solution for any medical device problem. If you have a device in mind that’s absorbable, we can prototype
+            it or fully develop it with our 3D Printing Services.
         </p>
     </div>
     <div class="purple-btn-block">
@@ -71,7 +71,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-6-big.png" alt="">
                     </div>
                     <div class="item-block second">
-                        <p class="title">EXPLORATION</p>
+                        <p class="title">Feasibility</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/design-service-process-7-big.png" alt="">
                     </div>
                     <div class="item-block third">
