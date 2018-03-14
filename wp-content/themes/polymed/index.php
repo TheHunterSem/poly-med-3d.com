@@ -18,7 +18,7 @@ the_post();
     </div>
     <div class="content-block">
         <h1 class="header">POLY-MED 3D <br> TECHNOLOGIES</h1>
-        <p class="text">Poly-Med provides fully traceable, medical grade polymers and filaments for additive
+        <p class="text">Medical grade Poly-Med provides fully traceable, polymers and filaments for additive
             manufacturing, along
             with in-house fused filament printing services. Our materials offer distinct advantages by their unique
             properties based on their composition, architecture, and desired performance. Poly-Med’s bioresorbable
@@ -26,7 +26,7 @@ the_post();
             yield a
             better printing experience, coupled with enhanced part functionality. With over 910 polymer solutions,
             we
-            are continuously developing the next bioresorbable materials for your device needs.
+            are continuously developing bioresorbable materials for your device needs.
         </p>
     </div>
 </div>
@@ -35,13 +35,13 @@ the_post();
 
     <div class="content">
         <h2 class="header-content-general fix-pd-bt">POLY-MED 3D SOLUTIONS & SERVICES</h2>
-        <p class="text-content-general">We produce medical-grade, high quality materials for your 3D printing
+        <p class="text-content-general">We produce medical-grade, high-quality materials for your 3D printing
             operations. If you need a particular material to enable your 3D printing application, we can customize our
             materials to fit your need. Poly-Med 3D is the leading partner for the supply and additive manufacturing of
             bioresorbable materials.</p>
         <p class="text-content-general">Having served a large number of innovators and industrial clients in the
-            biotechnology space, Poly-Med 3D is your trusted partner in 3D printing bioresorbable materials for
-            first-in-class medical devices. Contact US at <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
+            biotechnology field, Poly-Med 3D is your trusted partner in 3D printing bioresorbable materials for
+            first-in-class medical devices. Contact us at <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
         </p>
     </div>
 
@@ -111,9 +111,9 @@ the_post();
             <div class="content">
                 <h3 class="header-content-general">3D PRINTING SERVICES</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-2-black.png" alt="">
-                <p class="text-content-general">Poly-Med provides a variety of materials for 3D-printing applications,
+                <p class="text-content-general">Poly-Med provides a variety of materials for 3D printing applications,
                     along with in-house 3D printing services. Our materials and services are supported by an ISO
-                    13485-certified quality system of where we have fully traceable materials and processes for your 3D
+                    13485 certified quality system where we have fully traceable materials and processes for your 3D
                     printing needs.</p>
                 <p class="text-content-general">
                     Poly-Med filaments are synthesized, extruded, inspected, packaged, and shipped using fully traceable
