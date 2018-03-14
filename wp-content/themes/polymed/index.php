@@ -18,7 +18,7 @@ the_post();
     </div>
     <div class="content-block">
         <h1 class="header">POLY-MED 3D <br> TECHNOLOGIES</h1>
-        <p class="text">Medical grade Poly-Med provides fully traceable, polymers and filaments for additive
+        <p class="text">Poly-Med provides fully traceable, medical-grade polymers and filaments for additive
             manufacturing, along
             with in-house fused filament printing services. Our materials offer distinct advantages by their unique
             properties based on their composition, architecture, and desired performance. Poly-Med’s bioresorbable
