@@ -16,7 +16,7 @@
     <div class="content-block">
         <h1 class="header">POLY-MED 3D <br> PRINTING SERVICES</h1>
         <p class="text">3D printing enables more efficient development of bioresorbable devices in the medical world.
-            Our polymers are utilized in a wide range of medical device applications, and the addition of 3D printing
+            Our polymers are utilized in a wide range of medical device applications and the addition of 3D printing
             enables us to create a solution for any medical device problem. If you have a device in mind that’s absorbable, we can prototype
             it or fully develop it with our 3D Printing Services.
         </p>
@@ -94,7 +94,7 @@
 
         <p class="text quality-controlled-printing-text">Poly-Med is an FDA and ISO 13485/9001 registered company that operates a manufacturing facility in
             compliance to 21 CFR Part 820, Quality System Regulation. Because we have the ability to see a product through
-            design to manufacture, our quality assurance standards are engrained in the very core of our company.
+            design to manufacture, our quality assurance standards are ingrained in the very core of our company.
         </p>
 
     </section>

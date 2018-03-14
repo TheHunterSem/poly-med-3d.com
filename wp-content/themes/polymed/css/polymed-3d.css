@@ -332,19 +332,38 @@ footer {
     font-family: 'BrandonGrotesque-Medium';
 }
 
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 footer a {
     color: #ffffff;
 }
 
 footer .logo-info-block {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 0;
     vertical-align: top;
 }
 
 footer .contact-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .iso-img-block {
     display: inline-block;
     vertical-align: top;
+    margin-left: 20px;
+}
+
+footer .iso-img-block a img {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
 }
 
 footer .contact-block .header {
@@ -355,6 +374,8 @@ footer .contact-block .header {
     line-height: 24px;
     margin-top: 15px;
     margin-bottom: 26px;
+    width: 100%;
+    display: block;
 }
 
 footer .contact-block ul {

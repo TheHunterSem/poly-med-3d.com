@@ -219,6 +219,40 @@
 
 }
 
+@media screen and (max-width: 1240px) {
+
+    .footer-wrapper {
+        display: inline-block;
+    }
+
+    footer .iso-img-block {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    footer .iso-img-block a {
+        display: inline-block;
+    }
+
+    footer .social-block {
+        display: block;
+        vertical-align: top;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer .social-block .socials-icons {
+        text-align: center;
+    }
+
+}
+
 @media screen and (max-width: 1260px) {
 
     .printing-materials-goods-block .items-list .images-block span {
