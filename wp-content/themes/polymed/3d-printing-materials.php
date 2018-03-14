@@ -14,12 +14,12 @@
     </div>
     <div class="content-block">
         <h1 class="header">3D PRINTING MATERIALS</h1>
-        <p class="text">Poly-Med provides fully traceable, medical grade polymers and filaments for additive
+        <p class="text">Poly-Med provides fully traceable, medical-grade polymers and filaments for additive
             manufacturing. Our materials offer distinct advantages by their unique properties based on their
-            composition, architecture, and desired performance. Poly-Med’s bioresorbable materials are not only
+            composition, architecture, and desired performance. <br>Poly-Med’s bioresorbable materials are not only
             guaranteed to have the best quality standards, they also provide innovative properties that yield a better
             printing experience, coupled with enhanced part functionality. With over 910 polymer solutions we are
-            continuously developing the next bioresorbable materials for your device needs.
+            continuously developing bioresorbable materials for your device needs.
         </p>
     </div>
 </div>
@@ -39,7 +39,7 @@
                     <div class="content-item">
                         <span class="circle">1</span>
                         <p class="text">
-                            Poly-Med uses medical grade, fully traceable raw materials in the production of all polymer
+                            Poly-Med uses medical-grade, fully traceable raw materials in the production of all polymer
                             and filament products. All raw materials are tested for purity and quality specifications.
                         </p>
                     </div>
@@ -55,7 +55,7 @@
                         <span class="circle">2</span>
                         <p class="text">
                             To ensure the best possible filament, materials are extensively dried to minimize moisture
-                            in the polymer which can lead to degradation during extrusion.
+                            in the polymer, which can lead to degradation during extrusion.
                         </p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="content-item">
                         <span class="circle">4</span>
                         <p class="text">
-                            We perform 100% inspection of 3D filaments in real-time to ensure size and concentricity are
+                            We perform 100% inspection of 3D filaments in real time to ensure size and concentricity are
                             met.
                         </p>
                     </div>
@@ -86,7 +86,7 @@
                         <p class="text">Poly-Med is an FDA and ISO 13485 registered company that operates a manufacturing
                             facility in compliance to 21 CFR Part 820, Quality System Regulation. Because we have the
                             ability to see our products from raw monomer to extruded 3D filament, our quality assurance
-                            standards are engrained in the very core of our company.</p>
+                            standards are ingrained in the very core of our company.</p>
                     </div>
                 </div>
                 <div class="item">
@@ -110,14 +110,14 @@
                     <div class="content-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/making-filaments-4.png" alt="">
                         <p class="text">The final product! Enjoy printing a first-in-class 3D filament that can be used for
-                            bioresorbable scaffold and device development on your own 3D printer!</p>
+                            bioresorbable scaffolding and device development on your own 3D printer!</p>
                     </div>
                 </div>
             </div>
 
             <p class="text-content-general">
-                Poly-Med provides a variety of filaments for 3D-printing applications. These fibers are the only
-                biocompatible and bioresorbable 3D-printing filaments supported by an ISO 13485-certified quality
+                Poly-Med provides a variety of filaments for 3D printing applications. These fibers are the only
+                biocompatible and bioresorbable 3D printing filaments supported by an ISO 13485 certified quality
                 system.
             </p>
 
@@ -134,9 +134,9 @@
 
     <section class="printing-materials-goods-wrapper">
         <h2 class="header-content-general">3D PRINTING MATERIALS</h2>
-        <p class="text-content-general">We currently offer the polymers below and also can provide custom material
-            solutions for your 3D
-            printing applications. Contact Us <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
+        <p class="text-content-general">Currently, we offer the polymers listed below, or, if your project needs a
+            different material, we can provide a custom material solution for your 3D printing applications. Contact us
+            <a href="mailto:sales@poly-med3d.com">sales@poly-med3d.com</a>
         </p>
 
         <div class="key-wrapper">
