@@ -64,7 +64,7 @@ the_post();
                     ?>
 
                     <div class="checkbox-wrapper">
-                        <label>
+                        <label class="label-checkbox">
                             <input type="checkbox" class="checkbox-item">
                             <span class="wpcf7-list-item-label"></span>
                         </label>
@@ -123,7 +123,6 @@ the_post();
         </ul>
 
     </div>
-
 
     <section class="print-with-us purchase-request-form-block form-general">
         <div class="wrapper">

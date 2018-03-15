@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
     /*CONTACT US INFO POPUP END*/
 
     $('select#pa_gramms').each(function(){
-        $(this).children().eq(1).text('');
+        $(this).find(':lt(2)').addClass('ignored').text('');
     });
 
 
@@ -64,6 +64,34 @@ jQuery(document).ready(function ($) {
 
     jQuery(document).on('click', 'a.twitter-link', function() {
         gtag('event', 'Twitter click', { 'event_category': 'Twitter_button', 'event_action': 'click' });
+    });
+
+
+    $('select#pa_gramms').click(function () {
+
+        $('option',this).change();
+
+        var changed = $(this).closest('.item-element').find('.checkbox-wrapper .label-checkbox');
+
+        if($(this).find(":selected").hasClass('ignored')) {
+
+            if($(changed ,this).hasClass('clicked')) {
+                $(changed ,this).removeClass('clicked');
+                $(changed.not('.clicked-ignored')).trigger('click',function () {
+                });
+                $(changed ,this).addClass('clicked-ignored');
+            }
+
+
+        } else {
+
+            $(changed ,this).removeClass('clicked-ignored');
+            $(changed.not('.clicked')).trigger('click',function () {
+            });
+            $(changed ,this).addClass('clicked');
+
+        }
+
     });
 
 
