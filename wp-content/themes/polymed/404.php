@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-
+<div class="centered-container">
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
@@ -18,15 +18,14 @@ get_header(); ?>
 			</header>
 
 			<div class="page-content">
-				<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentyfourteen' ); ?></p>
+				<p><?php _e( 'It looks like nothing was found at this location.', 'twentyfourteen' ); ?></p>
 
-				<?php get_search_form(); ?>
+				<?php// get_search_form(); ?>
 			</div><!-- .page-content -->
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+</div>
 <?php
-get_sidebar( 'content' );
-get_sidebar();
+
 get_footer();
