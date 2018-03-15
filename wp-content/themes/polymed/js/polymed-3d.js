@@ -78,6 +78,10 @@ jQuery(document).ready(function ($) {
                 $(changed.not('.clicked-ignored')).trigger('click',function () {
                 });
                 $(changed ,this).addClass('clicked-ignored');
+            } else if(!$(changed ,this).hasClass('clicked-ignored')) {
+                $(changed ,this).addClass('clicked-ignored');
+                $(changed.not('.clicked-ignored')).trigger('click',function () {
+                });
             }
 
 
@@ -90,6 +94,10 @@ jQuery(document).ready(function ($) {
 
         }
 
+    });
+
+    $('.label-checkbox').on('click', function () {
+       $(this).removeClass('active clicked-ignored');
     });
 
 
