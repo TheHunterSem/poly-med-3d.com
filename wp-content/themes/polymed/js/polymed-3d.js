@@ -75,8 +75,8 @@ jQuery(document).ready(function ($) {
 
         if($(this).find(":selected").hasClass('ignored')) {
 
-            if($(changed ,this).hasClass('clicked')) {
-                $(changed ,this).removeClass('clicked');
+            if($(changed ,this).hasClass('active')) {
+                $(changed ,this).removeClass('active');
                 $(changed.not('.clicked-ignored')).trigger('click',function () {
                 });
                 $(changed ,this).addClass('clicked-ignored');
@@ -86,9 +86,9 @@ jQuery(document).ready(function ($) {
         } else {
 
             $(changed ,this).removeClass('clicked-ignored');
-            $(changed.not('.clicked')).trigger('click',function () {
+            $(changed.not('.active')).trigger('click',function () {
             });
-            $(changed ,this).addClass('clicked');
+            $(changed ,this).addClass('active');
 
         }
 

@@ -2172,7 +2172,7 @@ select:hover {
 }
 
 #hidden-text-area {
-    /*display: none !important;*/
+    display: none !important;
 }
 
 .form-general form {
