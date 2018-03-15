@@ -67,9 +67,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-    $('select#pa_gramms').click(function () {
-
-        $('option',this).change();
+    $('select#pa_gramms').on('change',function () {
 
         var changed = $(this).closest('.item-element').find('.checkbox-wrapper .label-checkbox');
 
