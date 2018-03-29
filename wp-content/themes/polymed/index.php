@@ -50,25 +50,25 @@ the_post();
         <div class="what_we_provide-wrapper">
 
             <div class="item">
-                <div class="image">
+                <a href="http://polymed3d.digitalm.co/3d-printing-materials"><div class="image">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-1.png" alt="">
-                </div>
+                </div></a>
                 <h4 class="header">3D PRINTING MATERIALS</h4>
                 <p class="description">MEDICAL GRADE</p>
             </div>
 
             <div class="item">
-                <div class="image">
+                <a href="http://polymed3d.digitalm.co/3d-printing-services/"><div class="image">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-2.png" alt="">
-                </div>
+                </div></a>
                 <h4 class="header">3D PRINTING SERVICES</h4>
                 <p class="description">QUALITY PRINTING</p>
             </div>
 
             <div class="item">
-                <div class="image">
+               <a href="http://polymed3d.digitalm.co/3d-printing-services/"> <div class="image">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-3.png" alt="">
-                </div>
+                </div></a>
                 <h4 class="header">CONTRACT MANUFACTURING</h4>
                 <p class="description">MANUFACTURING USING 3D PRINTING</p>
             </div>

@@ -128,7 +128,7 @@ the_post();
         <div class="wrapper">
             <h2 class="header-content-general shop">PURCHASE REQUEST FORM</h2>
             <p class="text">Please fill out the information below to request the items you have selected above for
-                purchase. If you have any questions you can contact us at <a href="mailto:sales@poly-med3d.com" style="color: #9A00F2;">sales@polymed3d.com</a>
+                purchase. If you have any questions you can contact us at <a href="mailto:sales@poly-med3d.com" style="color: #9A00F2;">sales@poly-med3d.com</a>
             </p>
             <?php echo do_shortcode('[contact-form-7 id="1681" title="PURCHASE REQUEST FORM"]') ?>
         </div>
