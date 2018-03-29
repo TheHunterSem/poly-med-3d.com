@@ -126,7 +126,7 @@
             </p>
 
             <div class="purple-btn-block">
-                <a href="http://poly-med.local/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
+                <a href="/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
             </div>
 
         </div>
@@ -246,7 +246,7 @@
 
                         <div class="bottom-buttons-block">
                             <a href="/shop/" class="purple-btn">PURCHASE MATERIALS</a>
-                            <a href="/3d-printing-services#print-with-us" class="purple-btn">print with us</a>
+                            <a href="/3d-printing-services/" class="purple-btn">print with us</a>
                         </div>
 
                     </li>
