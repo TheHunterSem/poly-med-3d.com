@@ -49,35 +49,30 @@ the_post();
         <h2 class="header-content-general">What we Provide</h2>
         <div class="what_we_provide-wrapper">
 
-            <div class="item">
-                <a href="/3d-printing-materials">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-1.png" alt="">
-                    </div>
-                </a>
+            <a href="/3d-printing-materials" class="item">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-1.png" alt="">
+                </div>
                 <h4 class="header">3D PRINTING MATERIALS</h4>
                 <p class="description">MEDICAL GRADE</p>
-            </div>
+            </a>
 
-            <div class="item">
-                <a href="/3d-printing-services/">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-2.png" alt="">
-                    </div>
-                </a>
+            <a href="/3d-printing-services" class="item">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-2.png" alt="">
+                </div>
                 <h4 class="header">3D PRINTING SERVICES</h4>
                 <p class="description">QUALITY PRINTING</p>
-            </div>
+            </a>
 
-            <div class="item">
-                <a href="/3d-printing-services/">
-                    <div class="image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-3.png" alt="">
-                    </div>
-                </a>
+            <a href="/3d-printing-services" class="item">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/what-we-provide-3.png" alt="">
+                </div>
+
                 <h4 class="header">CONTRACT MANUFACTURING</h4>
                 <p class="description">MANUFACTURING USING 3D PRINTING</p>
-            </div>
+            </a>
 
         </div>
     </section>
